@@ -2,9 +2,9 @@
 
 ##Assignments:
 
--Creating a Website
+####-Creating a Website
 
--Learning how to compress photos and videos
+####-Learning how to compress photos and videos
 
 ##The creation of a website
 
