@@ -1,4 +1,4 @@
-# Pre Fab Documentation
+# Pre Fab Academy
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
