@@ -8,9 +8,9 @@
 
 [about me](about.md)
 
-[assignments](assignments.md)
+[about the assignments](assignments.md)
 
-[projects](projects.md)
+[about projects](projects.md)
 
 
 
