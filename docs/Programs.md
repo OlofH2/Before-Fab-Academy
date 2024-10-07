@@ -11,9 +11,11 @@
 
 ###[GitHub Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
-###[Visual Studio Code]()
+###[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+* Material for MkDocs is a site generator that can build HTML sites and it works well with GitHub and Visual Studio Code. You can choose between different themes and add plugins. I like the clear instructions that can be found on their [website](https://www.mkdocs.org/). A great help for beginners like me.  
 
 ###[Visual Studio Code]()
+
 
 
 
