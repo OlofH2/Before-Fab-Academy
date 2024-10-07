@@ -1,20 +1,16 @@
-# Pre Fab Academy
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+##Welcome to my homepage
+###My name is Ólöf Hannesdóttir and this is my documentation of Pre Fab Academy 2024.
+###My instructor is [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html)
 
-## Commands
+###Here you can read...
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[about me](about.md)
 
-## Project layout
+[assignments](assignments.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[projects](projects.md)
 
-#Creating a website
+
 
