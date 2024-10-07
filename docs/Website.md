@@ -1,11 +1,16 @@
 
 #The creation of a website
 
-###HTML+Javascript
-####The first step was to copy a code from..... and paste it into a NotePad. By saving the NotePad file as a HTML file it opens up as a webpage when doubleclicked on. This helped me to understand how HTML and Javascript work.
+###Understanding HTML+Javascript
+####The first assignment was to copy a code from..... and paste it into a NotePad. By saving the NotePad file as a HTML file it opens up as a webpage when doubleclicked on. This helped me to understand how HTML and Javascript work.
 
-###CSS
+###Learning about CSS
 ####The next step was to learn about CSS, or Cascade Style Sheet, and how we can use CSS to control the way our HTML code appears, f.ex. the colour of elements, where text is situated and which fonts to use. On this page [here](https://www.w3schools.com/css/css_intro.asp) we could find explanations on CSS.
+
+
+
+
+
 
 ![Source_control](<img/Screenshot 2024-10-04 151818.png>)
 
