@@ -17,7 +17,11 @@
 ###It is possible to turn on Autosave in VS Code and I find that helpful because when I am documenting my changes appear almost instantly on my website and I can check out regurlarly how things look.
 
 ##Compressing photos and videos
-###In the beginning of my documentation I used the Snipping Tool
+###In the beginning of my documentation I used the Snipping Tool ![Snipping Tool]
+(img/Snipping_tool_b.jpg)
+###Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. I had to resize them again to get the preferred size and this time I adjusted the pixel size.
+
+
 
 ##Closing your work in Visual Suite Code
 
