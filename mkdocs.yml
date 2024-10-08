@@ -3,6 +3,5 @@ site_name: Pre Fab Academy
 theme:
   name: material 
 
-extra_css:
-  - stylesheets/extra.css
-  
+
+
