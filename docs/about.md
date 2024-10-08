@@ -1,3 +1,4 @@
-#About me
 
-##My name is Ólöf Hannesdóttir and ...
+# About me
+
+My name is Ólöf Hannesdóttir and ...

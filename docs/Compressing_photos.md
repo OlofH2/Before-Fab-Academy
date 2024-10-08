@@ -1,3 +1,4 @@
+
 Compressing photos using Image Magick
 
 I downloaded the program from this [site](https://imagemagick.org/script/download.php#windows)
