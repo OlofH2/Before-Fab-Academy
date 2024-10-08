@@ -13,10 +13,11 @@
 ##Cloning a repository
 
 
+##Autosave in VS Code
+###It is possible to turn on Autosave in VS Code and I find that helpful because when I am documenting my changes appear almost instantly on my website and I can check out regurlarly how things look.
 
 ##Compressing photos and videos
-
-
+###In the beginning of my documentation I used the Snipping Tool
 
 ##Closing your work in Visual Suite Code
 
