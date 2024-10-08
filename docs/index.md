@@ -10,7 +10,7 @@
 
 [about the assignments](assignments.md)
 
-[about projects](projects.md)
+
 
 
 
