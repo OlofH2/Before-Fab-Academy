@@ -10,6 +10,17 @@
 
 
 
+##Cloning a repository
+
+
+
+##Compressing photos and videos
+
+
+
+##Closing your work in Visual Suite Code
+
+##
 
 
 ![Source_control](<img/Screenshot 2024-10-04 151818.png>)
