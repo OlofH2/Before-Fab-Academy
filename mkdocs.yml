@@ -3,5 +3,10 @@ site_name: Pre Fab Academy
 theme:
   name: material 
 
+  features:
+    - header.autohide
+    
+  palette:
+    primary: cyan
 
 
