@@ -4,7 +4,7 @@
 I downloaded the program from this [site](https://imagemagick.org/script/download.php#windows)
 When Image Magick has been downloaded and set up it doesn´t appear as an app/program that you can open in your computer but you can use it as a terminal. I opened a folder with my documentation photos and wrote "cmd" in the explorer window. Then a window for a terminal popped up.
 
-When compressing photos, I set the width in pixels.
+When compressing photos, I set the width in pixels.......
 
 
 **Compressing videos using FFmpeg**
