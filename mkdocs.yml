@@ -23,8 +23,8 @@ nav:
     - Bio: about-me/about.md
   - Assignments:
     - Week-1. Principles and Practices: assignments/week1.md
-      - Programs: assignments/week1.md/programs.md
-      - Website: assignments/week1.md/Website.md
+    - Programs: assignments/week1.md/programs.md
+    - Website: assignments/week1.md/Website.md
     - Week-2. Computer-Aided Design: assignments/week02.md
     - Week-3. 
     - Week-4.
