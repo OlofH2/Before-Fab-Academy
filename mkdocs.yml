@@ -19,8 +19,7 @@ theme:
 
 nav:
   - Home: index.md
-  - About:
-    - Bio: about-me/about.md
+  - About: about.md
   - Assignments:
     - Week-1: Assignments/week1.md
     - Week-2: Assignments/week2.md
