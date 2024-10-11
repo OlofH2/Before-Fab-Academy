@@ -9,4 +9,10 @@ theme:
   palette:
     primary: cyan
 
+  features:
+      - navigation.tracking
 
+  features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        
