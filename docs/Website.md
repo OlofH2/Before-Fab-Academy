@@ -48,12 +48,19 @@ On Svavar´s site I saw that it was recommended to add a line to settings.json. 
 
 I knew that the number of hashtags in front of a sentence or a word controlled which type of heading was used and I thougt that if I used one hashtag in front of the headline I should use two hashtags in front of text that I wanted to be bigger than normal text. What I did not know was that the hashtags I was using also made the text appear in the Table of content. [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) saw this and he let me know so that I could fix this.
 
-There are a few more things I learned from Svavar´s website. [Svavar´s website](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html). 
+There are a few more things I learned from Svavar´s website. [Svavar´s website](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html). I noticed that when I clicked on links on his page to see the origin of codes he used, the links led me to exactly the right place on the sites he had linked to. I did´nt have to search the pages to find the origin. Svavar used this code so that other´s, who would link something to his page would end up on the right spot on his page. I decided to copy the code from his page and do the same.
+
+  features:
+      - navigation.tracking
+
+I also copied this code from his page:
+
+  features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        
+It makes the navigation at the top of the page follow when scrolling down a page.
+
 
 *Ath að skoða markdown codeblocks
-
-
-
-
-
 
