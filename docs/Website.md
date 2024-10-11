@@ -23,7 +23,10 @@ In VS Code I cloned the repository from my GitHub account. Then I clicked on the
 
 **Material for docs**
 
-To set up Material for docs I installed a Python package by copying and pasting this code:<pip install mkdocs-material> from this [website](https://squidfunk.github.io/mkdocs-material/getting-started//) into the terminal.  
+To set up Material for docs I installed a Python package by copying and pasting this code:<pip install mkdocs-material> from this [website](https://squidfunk.github.io/mkdocs-material/getting-started//) into the terminal.  ![PIP install](img/PIP_install_200x28px.jpg)
+![Theme_Material1](img/Theme_in_mkdocs_before_new_theme.jpg)
+![Theme_Material](img/Theme_in_mkdocs_before_new_theme_200x113.jpg)
+
 
 **Autosave in VS Code**
 
@@ -31,8 +34,12 @@ It is possible to turn on Autosave in VS Code and I find that helpful because wh
 
 **Compressing photos and videos**
 
-In the beginning of my documentation I used the Snipping Tool ![Snipping Tool]
+In the beginning of my documentation I used the Snipping Tool 
+
+![Snipping Tool]
+
 (img/Snipping_tool_b.jpg)
+
 Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. 
 
 **Loads of mistakes**
@@ -44,6 +51,7 @@ On Svavar´s site I saw that it was recommended to add a line to settings.json. 
 I knew that the number of hashtags in front of a sentence or a word controlled which type of heading was used and I thougt that if I used one hashtag in front of the headline I should use two hashtags in front of text that I wanted to be bigger than normal text. What I did not know was that the hashtags I was using also made the text appear in the Table of content. [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) saw this and he let me know so that I could fix this.
 
 
+*Ath að skoða markdown codeblocks
 
 
 
