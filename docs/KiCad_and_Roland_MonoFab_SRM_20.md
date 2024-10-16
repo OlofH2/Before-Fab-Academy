@@ -13,7 +13,7 @@ In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaS
 
 ![DownloadingLibrary](img/DownloadingLibraryCodeZip_200x234.png)
 
-The next step was to open KiCad, click on **Preferences" and **Manage Libraries**. 
+The next step was to open KiCad, click on **Preferences" and **Manage Libraries**. This photo shows that there are many libraries and it can be hard to find the right library, so as [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) mentioned in the video, it would be easier to work with a few libraries, but first I had to install the Fab Lab library before removing other libraries.
 
 ![Libraries](img/Libraries400x280.png)
 
@@ -21,7 +21,7 @@ I clicked on the small button with a folder sign on it, opened up the folder wit
 
 ![FolderSign](img/FolderSignToAddLibrary.png)
 
-![SymFile](img/Sym200x151.png)
+![Sym](img/Sym400x303.png)
 
 
 
