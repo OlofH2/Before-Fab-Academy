@@ -14,7 +14,8 @@ In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaS
 ![DownloadingLibrary](img/DownloadingLibraryCodeZip_200x234.png)
 
 The next step was to open KiCad, click on **Preferences" and **Manage Libraries**. 
-![Libraries](img/Libraries200x154.png)
+
+![Libraries](img/Libraries400x280.png)
 
 I clicked on the small button with a folder sign on it, opened up the folder with the library and double clicked on the **sym** file.
 
