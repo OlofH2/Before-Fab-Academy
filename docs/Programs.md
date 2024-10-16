@@ -1,3 +1,4 @@
+
 **Getting and setting up programs**
 
 To prepare the creation of this website and documentation of the assignments it was necessary to install a few programs:
