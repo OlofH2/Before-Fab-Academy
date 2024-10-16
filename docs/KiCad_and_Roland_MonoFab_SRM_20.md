@@ -28,6 +28,11 @@ Then I clicked on **Preferences** and chose **Footprint Libraries**. I clicked o
 ![Fab Pretty in Footprint Libraries](img/FabPrettyInFootprintLibraries400x342.png)
 
 
+After adding the Fab Lab library to the lists of libraries I took the clicks away from the box under **Active** in front of every other library. After that the only active library is the Fab Lab library.
+
+![Unclicking](img/UnclickingUnderActiveLibraries200x220.jpg)
+
+
 In these three videos; [first part](https://www.youtube.com/watch?v=ZXyL5xjJb7w&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=3), [second part](https://www.youtube.com/watch?v=knyDOiUZNsc&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=4), [third part](https://www.youtube.com/watch?v=dM3h--A04W4&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=5) he explains how to use Scematic editor.
 
 
