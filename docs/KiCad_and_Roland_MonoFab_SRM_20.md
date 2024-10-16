@@ -1,5 +1,5 @@
 
-**KiCad and Roland MonoFab SRM-20
+**KiCad and Roland MonoFab SRM-20**
 
 [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made [videos](https://www.youtube.com/watch?v=iOPbk1W3X5k&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=1)  for Fab Lab Reykjavík where he explains how to set up KiCad 8. The video is the first one in a playlist and the next videos explain the following:
 
