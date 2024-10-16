@@ -38,7 +38,7 @@ In these three videos; [first part](https://www.youtube.com/watch?v=ZXyL5xjJb7w&
 In Schematic Editor I opened the Fab Lab library by clicking on this symbol.
 
 
-I wrote ATtiny 412, chose it from the list and clicked **ok**. I could drag it around and I placed it a bit to the left by leftclicking on the screen. To add a switch I opened the library again and wrote "Switch
+I wrote ATtiny 412, chose it from the list and clicked **ok**. I could drag it around and I placed it on the screen by leftclicking on the screen. To add a switch I opened the library again and wrote "Switch
 
 SMT means that the button should be surface mounted.
 
