@@ -27,6 +27,10 @@ Material for MkDocs is a site generator that can build HTML sites and it works w
 
 With Greenshot you can take screenshots to document everything.
 
+KiCad
+
+KiCad Library
+
 One helpful note: When switching between programs in your computer you can press ALT + TAB
 
 
