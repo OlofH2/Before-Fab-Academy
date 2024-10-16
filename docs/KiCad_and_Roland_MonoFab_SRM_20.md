@@ -9,6 +9,7 @@ I opened the program, clicked on **File** and **new** to create a new project. I
 ![Creating-New-Project](img/New_project_KiCad.jpg)
 
 ![Schematic-and-PCB-editor](img/DownloadingLibraryCodeZip.png)
+![Schematic-and-PCB-editor](img/DownloadingLibraryCodeZip_200x234.png)
 
 In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he explains how to hide librarys that are seldom used and add a KiCad library. After watching the video I googled "Fab Lab library", as suggested in the video, and downloaded [this library](https://gitlab.fabcloud.org/pub/libraries/electronics/kicad). Then I clicked on the button marked as **Code** and chose **Zip**. Then I
 ![Downloading-Library](img/DownloadingLibraryCodeZip.png)
