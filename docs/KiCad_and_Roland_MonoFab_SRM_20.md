@@ -35,6 +35,13 @@ After adding the Fab Lab library to the lists of libraries I took the clicks awa
 
 In these three videos; [first part](https://www.youtube.com/watch?v=ZXyL5xjJb7w&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=3), [second part](https://www.youtube.com/watch?v=knyDOiUZNsc&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=4), [third part](https://www.youtube.com/watch?v=dM3h--A04W4&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=5) he explains how to use Scematic editor.
 
+In Schematic Editor I opened the Fab Lab library by clicking on this symbol.
+
+
+I wrote ATtiny 412, chose it from the list and clicked **ok**. I could drag it around and I placed it a bit to the left by leftclicking on the screen. To add a switch I opened the library again and wrote "Switch
+
+SMT means that the button should be surface mounted.
+
 
 
 This [video](https://www.youtube.com/watch?v=2oxuvwRuQNM&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=6) explains how to use the PCB editor.
