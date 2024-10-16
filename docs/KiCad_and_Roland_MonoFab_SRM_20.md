@@ -19,3 +19,5 @@ Souldering on a board is explained [here](https://www.youtube.com/watch?v=3f6FUT
 
 And finally he explaines how to program Attiny 412 [video](hhttps://www.youtube.com/watch?v=So58u1hxy98&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=119).
 
+
+
