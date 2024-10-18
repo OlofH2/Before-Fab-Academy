@@ -42,6 +42,21 @@ I wrote ATtiny 412, chose it from the list and clicked **ok**. I could drag it a
 
 SMT means that the button should be surface mounted.
 
+The next step was to add a button, so I opened the library again and wrote **button**. From the list I chose Switch_Tactile_Omron.
+
+After that I added a capacitor with the number **C_1206**. The number tells the size of the capacitor....
+
+Then I added a Led with the same number as the capacitor; **L_1206**. 
+
+
+Because the icon for the library is chosen, each time I click on the screen the library opens. To be able to use the mouse I had to click on the arrow at the top of the list. Then I could use the mouse to move elements around. 
+
+To rotate an element you can write "R" and then the element rotates 90 degrees.
+
+This photo above from [Spence Konde](https://github.com/SpenceKonde/megaTinyCore/raw/master/megaavr/extras/ATtiny_x12.gif) shows how the ATtiny 412 is set up. I connected the led to pin 7, which is marked as PA3. Then I connected the LED to Ground. Then I connected the swithc to pin 2, which is marked as PA6. In Schematic Editor it looks as if Pins nr. 2 and 7 are on the same side but when you look at this photo of ATtiny 412 from [Spence Konde](https://github.com/SpenceKonde/megaTinyCore/raw/master/megaavr/extras/ATtiny_x12.gif) you can see that the pins are on each side.
+
+
+
 
 
 This [video](https://www.youtube.com/watch?v=2oxuvwRuQNM&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=6) explains how to use the PCB editor.
