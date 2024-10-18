@@ -48,12 +48,18 @@ After that I added a capacitor with the number **C_1206**. The number tells the 
 
 Then I added a Led with the same number as the capacitor; **L_1206**. 
 
+The last element that I added was a Conn_PinHeader with three male pins in a row.
 
 Because the icon for the library is chosen, each time I click on the screen the library opens. To be able to use the mouse I had to click on the arrow at the top of the list. Then I could use the mouse to move elements around. 
 
 To rotate an element you can write "R" and then the element rotates 90 degrees.
 
+Elements can be labeled by clicking on the symbol marked with an underlined A or just writing the letter"L". I added a label marked GND to Ground and another one marked VCC to VCC.
+
+
  I connected the led to pin 7, which is marked as PA3. Then I connected the LED to Ground. Then I connected the swithc to pin 2, which is marked as PA6. In Schematic Editor it looks as if Pins nr. 2 and 7 are on the same side but when you look at this photo of ATtiny 412 from [Spence Konde](https://github.com/SpenceKonde/megaTinyCore/raw/master/megaavr/extras/ATtiny_x12.gif) you can see that the pins are on each side.
+
+I connected the first pin on the Conn_PinHeader to Ground, the second one to VCC and the third one to UPDI. 
 
 
 
