@@ -88,6 +88,11 @@ I could see that some of the blue lines, which showed how the electric circuits 
 When organizing the board I had to make sure that I wouldn´t make the RAFRÁSIRNAR too thin and that there is enough space for the bit to mill the traces while making sure that there is enough clearance.
 In **Board Setup** I went to **Design rules** and wrote that mininum clearance, minimum track width, minimum connection width, minimum annular width and copper to hole clearance should all be 0.4mm.
 
+To connect the elements/making tracks for the circuits that I wanted to mill, I clicked on the **Route Tracks** symbol and began drawing tracks between footprints. I made sure that the lines were straight when entering footprints. I used the Route tracker to mark all circuits that had to be milled, as can be seen in this photo. 
+
+
+To see what the board would look like I clicked to the 3D viewer and saw that Kicad made no extra space around the circuit, so I chose the Edge.Cut layer, clicked on the rectangular symbol and drew a rectangle around the circuit, giving it more space around all elements. This is what it looked like in 3D view after that.
+
 
 
 In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he adds 3D model to his PCB and uses the 3D viewer.
