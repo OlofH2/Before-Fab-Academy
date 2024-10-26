@@ -85,6 +85,11 @@ I changed the setup of the pins by editing the labels in Schematic Editor; Pin1 
 
 I could see that some of the blue lines, which showed how the electric circuits would be connected, were crossed. To fix that I by rotating elements.
 
+When organizing the board I had to make sure that I wouldn´t make the RAFRÁSIRNAR too thin and that there is enough space for the bit to mill the traces while making sure that there is enough clearance.
+In **Board Setup** I went to **Design rules** and wrote that mininum clearance, minimum track width, minimum connection width, minimum annular width and copper to hole clearance should all be 0.4mm.
+
+
+
 In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he adds 3D model to his PCB and uses the 3D viewer.
 
  [Here](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) he shows how to use Design Rule Checker and Inkscape.
