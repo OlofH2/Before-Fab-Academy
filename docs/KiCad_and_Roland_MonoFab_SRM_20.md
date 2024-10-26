@@ -96,6 +96,7 @@ To see what the board would look like I clicked to the 3D viewer and saw that Ki
 
 
 In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he adds 3D model to his PCB and uses the 3D viewer.
+To add 3D models to my board I right clicked on each element, chose **properties** and then clicked on **3D models** in the top bar. 
 
  [Here](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) he shows how to use Design Rule Checker and Inkscape.
 
