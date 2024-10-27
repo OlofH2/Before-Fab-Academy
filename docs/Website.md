@@ -38,7 +38,7 @@ I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/stu
 
 !!! info inline end "Inline blocks"
 
-    It is important to place content after the code for inline blocks. 
+    It is important to place content after the code for inline blocks. The photo here on the left side is from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/), and so is the code that was used to make this Inline block.
 
 ![Inline_Code_Example](img/Inline_code_example_300x113.jpg)
 
