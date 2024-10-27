@@ -16,7 +16,11 @@ theme:
         - navigation.tabs
         - navigation.tabs.sticky
         
-
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
 nav:
   - Home: index.md
   - About: about.md
