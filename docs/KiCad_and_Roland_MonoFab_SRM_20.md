@@ -104,6 +104,9 @@ I had to make two files in Inskcape, one for milling the circuit and another one
 
 Finally, I saved a new Inkscape file with the outline drawing, then selected the drawing of the outline and exported it as PNG. Then I also exported the drawing of the circuit as PNG.
 
+![PNG-Circuit](img/Circuit.png)
+
+![PNG-Outline](img/Circuit_outline.png)
 
 In this [video](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9) he explaines how to mill a board with Fab Modules.
 
