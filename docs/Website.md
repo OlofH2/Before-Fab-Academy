@@ -23,7 +23,7 @@ In VS Code I cloned the repository from my GitHub account. Then I clicked on the
 **Material for docs**
 
 To set up Material for docs I installed a Python package by copying and pasting this code:<pip install mkdocs-material> from this [website](https://squidfunk.github.io/mkdocs-material/getting-started//) into the terminal.  ![PIP install](img/PIP_install_200x28px.jpg)
-![Theme_Material1](img/Theme_in_mkdocs_before_new_theme.jpg)
+
 ![Theme_Material](img/Theme_in_mkdocs_before_new_theme_200x113.jpg)
 
 I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) added admonition to be able to add notes and more to his website. I decided to do the same and add admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). I also copied codes from the same site and adjusted the text to fit here on my page. The look and usage of admonitions can vary and you can learn more about it here:
