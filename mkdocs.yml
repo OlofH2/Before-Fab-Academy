@@ -8,6 +8,7 @@ theme:
     
   palette:
     primary: cyan
+    
     # Palette toggle for light mode
     - scheme: default
       toggle:
