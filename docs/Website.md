@@ -32,7 +32,7 @@ To set up Material for docs I installed a Python package by copying and pasting 
 
 ![Theme_Material](img/Theme_in_mkdocs_before_new_theme_200x113.jpg)
 
-I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) added Admonition and SuperFences to be able to add notes and more to his website. I decided to do the same and add admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). 
+I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) added Admonition and SuperFences to be able to add notes and more to his website. I decided to do the same and add admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). Here below is the code that I copied:
 
 ``` 
 markdown_extensions:
@@ -40,6 +40,16 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 ```
+
+But I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) had more markdown extensions on his list, so I followed what he had done and added these:
+
+``` 
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets
+```
+
 
 I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) and adjusted the text to fit here on my page. The look and usage of admonitions can vary and you can learn more about it here:
 
