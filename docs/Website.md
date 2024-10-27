@@ -45,6 +45,10 @@ I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/stu
 
 
 
+
+
+
+
 **Autosave in VS Code**
 
 It is possible to turn on Autosave in VS Code and I find that helpful because when I am documenting my changes appear almost instantly on my website and I can check out regurlarly how things look.
