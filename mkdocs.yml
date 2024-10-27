@@ -15,16 +15,17 @@ theme:
   features:
         - navigation.tabs
         - navigation.tabs.sticky
-        
+
+ icon:
+    admonition:
+      <type>: <icon>
+
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
-theme:
-  icon:
-    admonition:
-      <type>: <icon>
 
 nav:
   - Home: index.md
