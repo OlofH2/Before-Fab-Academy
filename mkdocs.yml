@@ -16,10 +16,6 @@ theme:
         - navigation.tabs
         - navigation.tabs.sticky
 
- icon:
-    admonition:
-      <type>: <icon>
-
 
 markdown_extensions:
   - admonition
