@@ -30,13 +30,9 @@ I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/stu
 
 !!!Info
   
-    Have fun changing admonitions by looking at this [information](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+    Have fun changing admonitions by reading about them [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
-!!! note
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
 
 **Autosave in VS Code**
 
