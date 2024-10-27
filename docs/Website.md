@@ -32,7 +32,9 @@ I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/stu
   
     Have fun changing admonitions by reading about them [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
+??? note
 
+    I think it´s absolutely brilliant to be able to make a collapsable block, like this one, with a small toggle to the right.
 
 **Autosave in VS Code**
 
