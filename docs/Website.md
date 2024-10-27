@@ -26,7 +26,11 @@ To set up Material for docs I installed a Python package by copying and pasting 
 ![Theme_Material1](img/Theme_in_mkdocs_before_new_theme.jpg)
 ![Theme_Material](img/Theme_in_mkdocs_before_new_theme_200x113.jpg)
 
-I added admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) 
+I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) added admonition to be able to add notes and more to his website. I decided to do the same and add admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). The look and usage of admonitions can vary and you can learn more about it here:
+
+!!!Note "More about admonitions"
+   Have fun changing admonitions by looking at this[information](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
+
 
 
 **Autosave in VS Code**
