@@ -16,7 +16,6 @@ The next step was to learn about CSS, or Cascade Style Sheet, and how we can use
 
 By reading about what to do and what not to do on [here](https://www.markdownguide.org/basic-syntax/) it helps when writing a Markdown. I took another look at this page after some coding and realized that I was not doing everything the right way. I should have put a blank line before writing a heading, instead of writing the heading at the top of the terminal. I also should have pressed the space button between the hashtag symbol and the text in the heading, instead of not leaving space inbetween.
 
-
 **Cloning a repository**
 
 In VS Code I cloned the repository from my GitHub account. Then I clicked on the three points in the top bar, chose *Terminal* and then to *Open a new terminal*. 
@@ -26,6 +25,8 @@ In VS Code I cloned the repository from my GitHub account. Then I clicked on the
 To set up Material for docs I installed a Python package by copying and pasting this code:<pip install mkdocs-material> from this [website](https://squidfunk.github.io/mkdocs-material/getting-started//) into the terminal.  ![PIP install](img/PIP_install_200x28px.jpg)
 ![Theme_Material1](img/Theme_in_mkdocs_before_new_theme.jpg)
 ![Theme_Material](img/Theme_in_mkdocs_before_new_theme_200x113.jpg)
+
+I added admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) 
 
 
 **Autosave in VS Code**
