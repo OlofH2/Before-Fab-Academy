@@ -32,7 +32,7 @@ To set up Material for docs I installed a Python package by copying and pasting 
 
 ![Theme_Material](img/Theme_in_mkdocs_before_new_theme_200x113.jpg)
 
-I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) added Admonition and SuperFences to be able to add notes and more to his website. I decided to do the same and add admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). Here below is the code that I copied:
+I saw that [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) added Admonition and SuperFences to be able to add notes, codeblocks and more to his website. I decided to do the same and add admonition to my mkdoks.yml file from [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). Below is the code that I copied:
 
 ``` 
 markdown_extensions:
