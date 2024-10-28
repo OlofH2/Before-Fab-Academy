@@ -6,6 +6,7 @@ theme:
     - header.autohide
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
 
   palette:
     primary: blue grey
