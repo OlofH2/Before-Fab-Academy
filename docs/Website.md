@@ -82,6 +82,18 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
 The colors on the page can be adjusted as explained [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/). 
 
 
+!!!Info
+  
+    I like being able to format text, f.ex. to higlight or underline words and to write keyboard keys, as described [here](https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-text), so I added this to mkdocs.yml:
+
+``` 
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+```
+
 
 **Autosave in VS Code**
 
