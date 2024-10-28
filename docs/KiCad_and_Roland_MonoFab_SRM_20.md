@@ -99,6 +99,12 @@ In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaS
 
 There was no 3D model for ATtiny4012, led light and button in Fab.3Dshapes, so [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) explained in the video what to do and pointed to this [website](https://www.snapeda.com/) to find the 3D model. I had to sign up to be able to use the website. Then I used the search window to find each element, chose the right one from a list and downloaded a 3D model. I opened the download in the downloads folder, copied it and pasted it into the **Fab.3Dshapes** folder. After that I could find the models in the same way as I explained before. The only problem was that when these models were opened up in Kicad-properties-3D models-Fab.3Dshapes they didn´t sit on the plate but lay on their side. That was easily fixed just by rotating them about 90 degrees.
 
+![ATtiny_wrong_situation](img/ATtiny412_wrongSituation400x380.jpg)    ![ATtiny_Right_situation](img/ATtiny412_Right_after90degreesRotation400x380.jpg)
+
+!!!note
+    Check out if the elements you add to Fab.3Dshapes folder are at the right angle. If not, rotate the angle on x-axis.
+
+
  [Here](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) he shows how to use Design Rule Checker and Inkscape. [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) shows how to use **Design Rule Checker** to see if everything is legal. I clicked on the symbol for it and chose **Run DRC**. I got 6 warnings that said "Silkscreen clipped by solder mask". Andri said that it would be important to fix this if the board was to be produced, but since this doesn´t really matter when this board is made, i ignored the warnings. 
 
  To export the final desing I chose **File** and **Export SVG**. I checked in the **F.Cu box** and changed the **Print Mode** from color to **black and white**. Then I saved the file. The next step was to open the file in Inkscape. The whole page appeared in Inkscape with the frame around the page and the text boxes. I only needed the board, so I copied it and pasted it into a new Inkscape file. In Inkscape I changed the colour of the circuit from black to white and changed the background to black.
@@ -107,12 +113,15 @@ I had to make two files in Inskcape, one for milling the circuit and another one
 
 Finally, I saved a new Inkscape file with the outline drawing, then selected the drawing of the outline and exported it as PNG. Then I also exported the drawing of the circuit as PNG.
 
-!!!note
-    Check out if the elements you add to Fab.3Dshapes folder are at the right angle. If not, rotate the angle on x-axis.
+
+
 
 ![PNG-Circuit](img/Circuit.png)
 
 ![PNG-Outline](img/Circuit_outline.png)
+
+
+
 
 In this [video](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9) he explaines how to mill a board with Fab Modules.
 
