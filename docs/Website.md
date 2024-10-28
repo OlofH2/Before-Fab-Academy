@@ -77,6 +77,7 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
 
     The photo is 400 pixels wide, 500 pixels was to wide so that the inline box did not fit beside the photo.
 
+
 **Adjusting colors on the page**
 
 The colors on the page can be adjusted as explained [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/). 
@@ -84,7 +85,7 @@ The colors on the page can be adjusted as explained [here](https://squidfunk.git
 
 !!!Info
   
-    I like being able to format text, f.ex. to higlight or underline words and to write keyboard keys, as described [here](https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-text), so I added this to mkdocs.yml:
+    I like being able to format text, f.ex. to higlight or underline words and to write keyboard keys, as described [here](https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-text), so I copied the code below and added it to mkdocs.yml:
 
 ``` 
   - pymdownx.critic
