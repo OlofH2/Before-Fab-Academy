@@ -13,10 +13,6 @@ theme:
   features:
       - navigation.tracking
 
-  features:
-        - navigation.tabs
-        - navigation.tabs.sticky
-
 
 markdown_extensions:
   - admonition
