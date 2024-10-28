@@ -99,7 +99,7 @@ In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaS
 
 There was no 3D model for ATtiny4012, led light and button in Fab.3Dshapes, so [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) explained in the video what to do and pointed to this [website](https://www.snapeda.com/) to find the 3D model. I had to sign up to be able to use the website. Then I used the search window to find each element, chose the right one from a list and downloaded a 3D model. I opened the download in the downloads folder, copied it and pasted it into the **Fab.3Dshapes** folder. After that I could find the models in the same way as I explained before. The only problem was that when these models were opened up in Kicad-properties-3D models-Fab.3Dshapes they didn´t sit on the plate but lay on their side. That was easily fixed just by rotating them about 90 degrees.
 
-  ![ATtiny_wrong_situation](img/ATtiny412_wrongSituation300x285.jpg)     ![ATtiny_right_situation](img/ATtiny412_Right_after90degreesRotation300x285.jpg)     
+  ![ATtiny_wrong_situation](img/ATtiny412_wrongSituation300x285.jpg)        ![ATtiny_right_situation](img/ATtiny412_Right_after90degreesRotation300x285.jpg)     
 
 
 !!!note
