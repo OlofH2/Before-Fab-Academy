@@ -1,9 +1,10 @@
 
-**Videos - KiCad and Roland MonoFab SRM-20**
+**Producing a circuit board with ATtiny412**
 
 [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.
 
- 
+**KiCad setup**
+
 !!!Info "The first part"
   
     In the first [video](https://www.youtube.com/watch?v=iOPbk1W3X5k&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=1) he explains how to set up KiCad 8. On [KiCad.org](hhttps://www.kicad.org/download/windows/) I downloaded the KiCad program and then installed it on the computer. On the [About KiCad](https://www.kicad.org/about/kicad/) site it says that KiCad is an open source software that can be used to design EDA or Electronic Design Automation. In [KiCad](https://www.kicad.org/) Schematic Editor is used to draw electronic circuit and you have access to thousands of symbols that can be found in libraries. The PCB Editor is then used to add elements to the circuit. Then you can use the 3D viewer to preview your design.
@@ -14,14 +15,15 @@
 
 ![Schematic_PCB_files](img/Schematic_editor400x289.jpg)
 
+**Hiding libraries and adding Fab Lab library**
+
 !!!Info "The second part"
   
     In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he explains how to hide librarys that are seldom used and add a KiCad library. After watching the video I googled "Fab Lab library", as suggested in the video, and downloaded [this library](https://gitlab.fabcloud.org/pub/libraries/electronics/kicad). Then I clicked on the button marked as **Code** and chose **Zip**. Then I opened up the downloads folder and extracted the library. I saved this library in a folder where I plan on storing everything connected to working with KiCad.
 
 
-![DownloadingLibrary](img/DownloadingLibraryCodeZip_200x234.png)
 
-The next step was to open KiCad, click on **Preferences" and **Manage Libraries**. This photo shows that there are many libraries and it can be hard to find the right library, so as [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) mentioned in the video, it would be easier to work with a few libraries, but first I had to install the Fab Lab library before removing other libraries.
+The next step was to open KiCad, click on **Preferences** and **Manage Libraries**. This photo shows that there are many libraries and it can be hard to find the right library, so as [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) mentioned in the video, it would be easier to work with a few libraries, but first I had to install the Fab Lab library before removing other libraries.
 
 ![Libraries](img/Libraries400x280.png)
 
@@ -40,6 +42,7 @@ After adding the Fab Lab library to the lists of libraries I took the clicks awa
 
 ![Unclicking](img/UnclickingUnderActiveLibraries200x220.jpg)
 
+**Designing the circuit in Schematic Editor**
 
 !!!Info "Third, fourth and fifth part"
   
@@ -79,6 +82,7 @@ I used the **Electrical Rule Checker** to see if everything was legal but got a 
 
 In Page settings I changed the page size to A5 and added some information about the project. Then I added a text box, just to try it. I also put a rectangular frame around some of the elements and changed the style of the frame.
 
+**First Schematic Editor, then PCB Editor**
 
 !!!Info "Sixth part"
   
@@ -105,6 +109,7 @@ To connect the elements/making tracks for the circuits that I wanted to mill, I 
 
 To see what the board would look like I clicked to the 3D viewer and saw that Kicad made no extra space around the circuit, so I chose the Edge.Cut layer, clicked on the rectangular symbol and drew a rectangle around the circuit, giving it more space around all elements. This is what it looked like in 3D view after that.
 
+**3D models added and then inspected in 3D viewer**
 
 !!!Info "Seventh part"
   
@@ -120,8 +125,14 @@ There was no 3D model for ATtiny4012, led light and button in Fab.3Dshapes, so [
 !!!note
     Check out if the elements you add to Fab.3Dshapes folder are at the right angle. If not, rotate the angle on x-axis.
 
+**Design Rule Checker**
 
- [Here](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) he shows how to use Design Rule Checker and Inkscape. [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) shows how to use **Design Rule Checker** to see if everything is legal. I clicked on the symbol for it and chose **Run DRC**. I got 6 warnings that said "Silkscreen clipped by solder mask". Andri said that it would be important to fix this if the board was to be produced, but since this doesn´t really matter when this board is made, i ignored the warnings. 
+
+!!!Info "Eight part"
+  
+     [Here](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) shows how to finish the design of the board in PCB editor, use Design Rules Checker and finally prepare the design for milling and cutting in Inkscape.
+
+  I followed the directions on how to use **Design Rule Checker** to see if everything is legal. I clicked on the symbol for it and chose **Run DRC**. I got 6 warnings that said "Silkscreen clipped by solder mask". Andri said that it would be important to fix this if the board was to be produced, but since this doesn´t really matter when this board is made, i ignored the warnings. 
 
  To export the final desing I chose **File** and **Export SVG**. I checked in the **F.Cu box** and changed the **Print Mode** from color to **black and white**. Then I saved the file. The next step was to open the file in Inkscape. The whole page appeared in Inkscape with the frame around the page and the text boxes. I only needed the board, so I copied it and pasted it into a new Inkscape file. In Inkscape I changed the colour of the circuit from black to white and changed the background to black.
 
@@ -134,21 +145,21 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
 ![PNG-Outline](img/Circuit_outline.png)
 
 
-!!!Info "Eight part"
-  
-     [Here](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) Andri shows how to finish the design of the board in PCB editor, use Design Rules Checker and finally prepare the design for milling and cutting in Inkscape.
 
-
+**Milling and cutting with Fab Modules**
 
 !!!Info "Ninth part"
   
     In this video it is shown how to mill the board by using Fab Modules [here](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9).
 
 
+**Souldering**
+
 !!!Info "Tenth part"
   
      Souldering on a board is explained [here](https://www.youtube.com/watch?v=3f6FUTbL8kg&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=10).
 
+**How to program ATtiny412**
 
 !!!Info "Eleventh part"
   
