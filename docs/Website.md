@@ -77,6 +77,16 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
 
     The photo is 400 pixels wide, 500 pixels was to wide so that the inline box did not fit beside the photo.
 
+**Icons and emojis :smile: **
+
+An icon or an emoji can say so much and I found information about how to set them up [here](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/). I copied this code to enable the use of icons and emojis and pasted it into my mkdocs.yml:
+
+``` 
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+```
 
 **Adjusting colors on the page**
 
