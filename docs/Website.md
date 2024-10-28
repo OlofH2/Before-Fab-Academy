@@ -81,25 +81,7 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
 
 The colors on the page can be adjusted as explained [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/). 
 
-On the same page it is explained how to toggle between light and dark mode by using this code and choosing colors for each mode:
 
-
-``` 
-  theme:
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-```
 
 **Autosave in VS Code**
 
