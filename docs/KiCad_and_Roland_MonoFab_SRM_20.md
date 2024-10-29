@@ -7,11 +7,15 @@
 
 !!!Info "The first part"
   
-    In the first [video](https://www.youtube.com/watch?v=iOPbk1W3X5k&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=1) he explains how to set up KiCad 8. On [KiCad.org](hhttps://www.kicad.org/download/windows/) I downloaded the KiCad program and then installed it on the computer. On the [About KiCad](https://www.kicad.org/about/kicad/) site it says that KiCad is an open source software that can be used to design EDA or Electronic Design Automation. In [KiCad](https://www.kicad.org/) Schematic Editor is used to draw electronic circuit and you have access to thousands of symbols that can be found in libraries. The PCB Editor is then used to add elements to the circuit. Then you can use the 3D viewer to preview your design.
+    In the first [video](https://www.youtube.com/watch?v=iOPbk1W3X5k&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=1) he explains how to set up KiCad 8. 
+
+On [KiCad.org](hhttps://www.kicad.org/download/windows/) I downloaded the KiCad program and then installed it on the computer. On the [About KiCad](https://www.kicad.org/about/kicad/) site it says that KiCad is an open source software that can be used to design EDA or Electronic Design Automation. In [KiCad](https://www.kicad.org/) Schematic Editor is used to draw electronic circuit and you have access to thousands of symbols that can be found in libraries. The PCB Editor is then used to add elements to the circuit. Then you can use the 3D viewer to preview your design.
+
+I opened the program, clicked on **File** and **new** to create a new project. I saved it in a folder in my computer. When saving a new project there will be two files created, Schematic file and a PCB file. I began by editing the Schematic file.
 
 !!! note inline end "Schematic and PCB files"
 
-    I opened the program, clicked on **File** and **new** to create a new project. I saved it in a folder in my computer. When saving a new project there will be two files created, Schematic file and a PCB file. I began by editing the Schematic file. 
+    When saving a new project there will be two files created, Schematic file and a PCB file. 
 
 ![Schematic_PCB_files](img/Schematic_editor400x289.jpg)
 
@@ -19,24 +23,24 @@
 
 !!!Info "The second part"
   
-    In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he explains how to hide librarys that are seldom used and add a KiCad library. After watching the video I googled "Fab Lab library", as suggested in the video, and downloaded [this library](https://gitlab.fabcloud.org/pub/libraries/electronics/kicad). Then I clicked on the button marked as **Code** and chose **Zip**. Then I opened up the downloads folder and extracted the library. I saved this library in a folder where I plan on storing everything connected to working with KiCad.
+    In this [video](https://www.youtube.com/watch?v=ZeAAy6L8AB8&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=2) he explains how to hide librarys that are seldom used and add a KiCad library. 
 
 
-
+After watching the video I googled "Fab Lab library", as suggested in the video, and downloaded [this library](https://gitlab.fabcloud.org/pub/libraries/electronics/kicad). Then I clicked on the button marked as **Code** and chose **Zip**. Then I opened up the downloads folder and extracted the library. I saved this library in a folder where I plan on storing everything connected to working with KiCad.
 The next step was to open KiCad, click on **Preferences** and **Manage Libraries**. This photo shows that there are many libraries and it can be hard to find the right library, so as [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) mentioned in the video, it would be easier to work with a few libraries, but first I had to install the Fab Lab library before removing other libraries.
 
 ![Libraries](img/Libraries400x280.png)
 
 I clicked on the small button with a folder sign on it, opened up the folder with the library and double clicked on the **sym** file.
 
+!!! info inline end "Inline blocks"
+
+    Here you can see the tiny folder sign.
+
 ![FolderSign](img/FolderSignToAddLibrary.png)
 
-![Sym](img/Sym400x303.png)
 
 Then I clicked on **Preferences** and chose **Footprint Libraries**. I clicked on the **Folder** button and this time I added the Fab.Pretty folder.
-
-![Fab Pretty in Footprint Libraries](img/FabPrettyInFootprintLibraries400x342.png)
-
 
 After adding the Fab Lab library to the lists of libraries I took the clicks away from the box under **Active** in front of every other library. After that the only active library is the Fab Lab library.
 
@@ -51,16 +55,9 @@ After adding the Fab Lab library to the lists of libraries I took the clicks awa
 
 In Schematic Editor I opened the Fab Lab library by clicking on this symbol.
 
+I wrote **ATtiny 412** and chose it from the list. To the right I could see the symbol for this microcontroller and below it there was an footprint image of it. Then I clicked **ok**. I could drag it around and I placed it on the screen by leftclicking on the screen. To add a switch I opened the library again and wrote **Switch** and chose **Switch_Tactile_Omron** from the list. In the information text below I could see the letters **SMT**. SMT means that the button should be surface mounted.
 
-I wrote ATtiny 412, chose it from the list and clicked **ok**. I could drag it around and I placed it on the screen by leftclicking on the screen. To add a switch I opened the library again and wrote "Switch
-
-SMT means that the button should be surface mounted.
-
-The next step was to add a button, so I opened the library again and wrote **button**. From the list I chose Switch_Tactile_Omron.
-
-After that I added a capacitor with the number **C_1206**. The number tells the size of the capacitor....
-
-Then I added a Led with the same number as the capacitor; **L_1206**. 
+After that I added a capacitor with the number **C_1206**. Then I added a Led with the same number as the capacitor; **L_1206**. 
 
 The last element that I added was a Conn_PinHeader with three male pins in a row.
 
