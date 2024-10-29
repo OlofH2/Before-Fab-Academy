@@ -57,6 +57,8 @@ In Schematic Editor I opened the Fab Lab library by clicking on this symbol.
 
 I wrote **ATtiny 412** and chose it from the list. To the right I could see the symbol for this microcontroller and below it there was an footprint image of it. Then I clicked **ok**. I could drag it around and I placed it on the screen by leftclicking on the screen. To add a switch I opened the library again and wrote **Switch** and chose **Switch_Tactile_Omron** from the list. In the information text below I could see the letters **SMT**. SMT means that the button should be surface mounted.
 
+![ATtinyInLibrary](img/ATtiny412_inLibrary500x392.jpg)
+
 After that I added a capacitor with the number **C_1206**. Then I added a Led with the same number as the capacitor; **L_1206**. 
 
 The last element that I added was a Conn_PinHeader with three male pins in a row.
