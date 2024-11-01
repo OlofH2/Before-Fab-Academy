@@ -153,6 +153,10 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
     In this video it is shown how to mill the board by using Fab Modules [here](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9).
 
 
+In our Fab Lab we have the MonoFab SRM-20. Fab Modules is used for setup before cutting and milling in the machine. It is done with [Fab Mods](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) 
+
+
+
 **Souldering**
 
 !!!Info "Tenth part"
