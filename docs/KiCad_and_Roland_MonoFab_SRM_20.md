@@ -150,16 +150,62 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
 
 !!!Info "Ninth part"
   
-    In this video it is shown how to mill the board by using Fab Modules [here](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9).
-
-    I also watched this [video] made by Fab Lab Barcelona (https://www.youtube.com/watch?v=rFRuc0VPWDM).
+    In this video it is shown how to mill the board by using Fab Modules [here](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9). 
 
 
-In our Fab Lab we have the [MonoFab SRM-20 milling machine](https://www.rolanddg.eu/en/products/3d/srm-20-small-milling-machine). I put double tape on the backside of the copper PCB plate and fastened it in the machine. I was very careful when handling and fastening the end mill because the end is so thin that it can break easily. 
+In our Fab Lab we have the [MonoFab SRM-20 milling machine](https://www.rolanddg.eu/en/products/3d/srm-20-small-milling-machine). 
+
+Since [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) was not using the same machine as I was using, I also watched this video made by Fab Lab Barcelona [here](https://www.youtube.com/watch?v=rFRuc0VPWDM) and compaired it to the video that Andri made. Another thing; Andri was also using [Fab Modules](https://kokompe.cba.mit.edu/) but in our Fab Lab we use Fab Modules, which is a newer edition, for setup before cutting and milling in the MonoFab SRM-20 machine. It is done online with [Fab Mods](https://modsproject.org/). I opened the website and right clicked on the screen for this window to open up. Then I chose **Programs** and then I chose **Mill 2D PCB** which was under **SRM-20 mill**.
 
 
+!!! info inline end "Inline blocks"
 
-Fab Modules is used for setup before cutting and milling in the machine. It is done online with [Fab Mods](https://modsproject.org/). At first sight it looks very complicated to fill in the information, but in fact it is simpler than it looks. On the left side you can choose between uploading a .svg file or a .png file. I began by uploading the .png file for the electric circuits and clicked on the 1/64 button below, because I wanted to use the 1/64 endmill to mill the traces. 
+    I opened the website and right clicked on the screen for this window (upper left photo) to open up. 
+    
+    
+    
+    
+    
+    Then I chose **Programs** and clicked on **Mill 2D PCB** which was under **SRM-20 mill** (lower left photo).
+             
+![OpenProgram](img/OpenProgram_200x111.JPG)             
+
+
+![SRM](img/SRM20_Mill_2D_PCB200x284.JPG)
+
+
+##Settings in Fab Mods
+
+After going through the process I mentioned here above, this page appeared:
+ 
+![Overview](img/Overview_FabModules.JPG)
+
+At first sight it looks very complicated to fill in the information, but in fact it is simpler than it looks. On the left side you can choose between uploading a .svg file or a .png file. I began by uploading the .png file for the electric circuits and clicked on the 1/64 button below, because I wanted to use the 1/64 endmill to mill the traces. 
+
+
+!!! info inline end "Inline blocks"
+
+    The 1/64 button with presettings. 
+    
+![Preset1_64](img/1_64_Preset.JPG)
+
+
+ 
+The next step was to turn on **Save** to the lower right, so that both **Save** buttons were turned on. The settings for x,y and z were preset to 10 but I changed them all to zero.
+
+![SaveAndXYZ](img/SaveAndXYZsettings.JPG)
+
+Finally I clicked on **Calculate** under **Mill raster 2D**.
+
+![Calculate](img/Calculate1_64_300x287.jpg)
+
+Then the program created paths and a photo of them appeared in the next tab on the browser. But the traces were not similar to the traces that Andri made, so I asked [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) and he asked what resolution I used when exporting the PNG from Inkscape. It was not high, so Svavar advised me to export the PNG with the resolution set to 1000 dpi. The results were much better and here you can see the difference between the path with lower resolution and the other one with higher resolution:
+
+![LowerResolution](img/Ferill1_ekkiEinsOgMyndband300x208.JPG)   ![BetterTraces](img/BetterTraces1_64_300x208.jpg)
+
+##The V-Panel
+
+I opened up the V-panel which is used to control cutting and milling in the MonoFab SRM-20 machine. I put double tape on the backside of the copper PCB plate and fastened it on the board in the machine. I was very careful when handling and fastening the end mill because the end is so thin that it can break easily, as was pointed out in the [video] from Fab Lab Barcelona (https://www.youtube.com/watch?v=rFRuc0VPWDM).  
 
 
 
