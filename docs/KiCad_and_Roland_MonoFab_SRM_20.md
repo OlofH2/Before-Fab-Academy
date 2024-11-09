@@ -3,7 +3,7 @@
 
 [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.
 
-**KiCad setup**
+##KiCad setup
 
 !!!Info "The first part"
   
@@ -19,7 +19,7 @@ I opened the program, clicked on **File** and **new** to create a new project. I
 
 ![Schematic_PCB_files](img/Schematic_editor400x289.jpg)
 
-**Hiding libraries and adding Fab Lab library**
+##Hiding libraries and adding Fab Lab library
 
 !!!Info "The second part"
   
@@ -46,7 +46,7 @@ After adding the Fab Lab library to the lists of libraries I took the clicks awa
 
 ![Unclicking](img/UnclickingUnderActiveLibraries200x220.jpg)
 
-**Designing the circuit in Schematic Editor**
+##Designing the circuit in Schematic Editor
 
 !!!Info "Third, fourth and fifth part"
   
@@ -81,7 +81,7 @@ I used the **Electrical Rule Checker** to see if everything was legal but got a 
 
 In Page settings I changed the page size to A5 and added some information about the project. Then I added a text box, just to try it. I also put a rectangular frame around some of the elements and changed the style of the frame.
 
-**First Schematic Editor, then PCB Editor**
+##First Schematic Editor, then PCB Editor
 
 !!!Info "Sixth part"
   
@@ -109,7 +109,7 @@ To connect the elements/making tracks for the circuits that I wanted to mill, I 
 
 To see what the board would look like I clicked to the 3D viewer and saw that Kicad made no extra space around the circuit, so I chose the Edge.Cut layer, clicked on the rectangular symbol and drew a rectangle around the circuit, giving it more space around all elements. This is what it looked like in 3D view after that.
 
-**3D models added and then inspected in 3D viewer**
+##3D models added and then inspected in 3D viewer
 
 !!!Info "Seventh part"
   
@@ -125,7 +125,7 @@ There was no 3D model for ATtiny4012, led light and button in Fab.3Dshapes, so [
 !!!note
     Check out if the elements you add to Fab.3Dshapes folder are at the right angle. If not, rotate the angle on x-axis.
 
-**Design Rule Checker**
+##Design Rule Checker
 
 
 !!!Info "Eight part"
@@ -146,24 +146,33 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
 
 
 
-**Milling and cutting with Fab Modules**
+##Milling and cutting with Fab Modules
 
 !!!Info "Ninth part"
   
     In this video it is shown how to mill the board by using Fab Modules [here](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9).
 
-
-In our Fab Lab we have the MonoFab SRM-20. Fab Modules is used for setup before cutting and milling in the machine. It is done online with [Fab Mods](https://modsproject.org/).  
-
+    I also watched this [video] made by Fab Lab Barcelona (https://www.youtube.com/watch?v=rFRuc0VPWDM).
 
 
-**Souldering**
+In our Fab Lab we have the [MonoFab SRM-20 milling machine](https://www.rolanddg.eu/en/products/3d/srm-20-small-milling-machine). I put double tape on the backside of the copper PCB plate and fastened it in the machine. I was very careful when handling and fastening the end mill because the end is so thin that it can break easily. 
+
+
+
+Fab Modules is used for setup before cutting and milling in the machine. It is done online with [Fab Mods](https://modsproject.org/). At first sight it looks very complicated to fill in the information, but in fact it is simpler than it looks. On the left side you can choose between uploading a .svg file or a .png file. I began by uploading the .png file for the electric circuits and clicked on the 1/64 button below, because I wanted to use the 1/64 endmill to mill the traces. 
+
+
+
+##Souldering
 
 !!!Info "Tenth part"
   
      Souldering on a board is explained [here](https://www.youtube.com/watch?v=3f6FUTbL8kg&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=10).
 
-**How to program ATtiny412**
+
+
+
+##How to program ATtiny412
 
 !!!Info "Eleventh part"
   
