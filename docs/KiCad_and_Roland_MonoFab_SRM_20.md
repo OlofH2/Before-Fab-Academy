@@ -1,5 +1,5 @@
 
-**Producing a circuit board with ATtiny412**
+##Producing a circuit board with ATtiny412
 
 [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.
 
@@ -153,7 +153,7 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
     In this video it is shown how to mill the board by using Fab Modules [here](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9).
 
 
-In our Fab Lab we have the MonoFab SRM-20. Fab Modules is used for setup before cutting and milling in the machine. It is done with [Fab Mods](https://www.youtube.com/watch?v=Tq6v1HqWmm0&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=8) 
+In our Fab Lab we have the MonoFab SRM-20. Fab Modules is used for setup before cutting and milling in the machine. It is done online with [Fab Mods](https://modsproject.org/).  
 
 
 
