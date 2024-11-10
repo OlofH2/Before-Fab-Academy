@@ -203,30 +203,74 @@ Then the program created paths and a photo of them appeared in the next tab on t
 
 ![LowerResolution](img/Ferill1_ekkiEinsOgMyndband300x208.JPG)   ![BetterTraces](img/BetterTraces1_64_300x208.jpg)
 
+After prepairing the file for milling traces I prepaired the outline file the same way, but changed the end-mill to 1/32. In the video from [Fab Lab Barcelona](https://www.youtube.com/watch?v=rFRuc0VPWDM) the speed was changed to 0,5 but since Andri did not change the preset settings in his [video](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9) I decided to stay with the preset settings with speed for the 1/32.
+
 ##The V-Panel
 
-I opened up the V-panel which is used to control cutting and milling in the MonoFab SRM-20 machine. I put double tape on the backside of the copper PCB plate and fastened it on the board in the machine. I was very careful when handling and fastening the end mill because the end is so thin that it can break easily, as was pointed out in the [video] from Fab Lab Barcelona (https://www.youtube.com/watch?v=rFRuc0VPWDM).  
+I opened up the V-panel which is used to control cutting and milling in the MonoFab SRM-20 machine. I put double tape on the backside of the copper PCB plate and fastened it on the board in the machine. I was very careful when handling and fastening the end-mill because the end is so thin that it can break easily, as was pointed out in the video from [Fab Lab Barcelona](https://www.youtube.com/watch?v=rFRuc0VPWDM). I used the control board in the V-panel and moved the end-mill to the left corner close to me, where I wanted the starting point to be. Then I clicked on the **x/y** button under **Set origin point** (on the right side). Then I lowered the collet until the end-mill was a few millimeters above the copper plate and loosened it by using the hex key (Allen key). I pressed the side of the end-mill gently, so that it wouldn´t fall down and break. I lowered it carefully until it touched the plate and when it stood on the plate I fastened it again and clicked on the **z button** under **Set origin point** (on the right side).
 
+After setting the x,y and z origin I pressed the **Cut** button, chose **Delete all files** and then added the file I wanted to mill. When I clicked on the **Output** button the machine began milling the traces. First I milled the PCB board using the 1/64 end-mill and then I cut the outline with the 1/32 end-mill. 
 
-
-##Souldering
+![MillingFinished](img/AfterMilling300x240.jpg)
 
 !!!Info "Tenth part"
   
      Souldering on a board is explained [here](https://www.youtube.com/watch?v=3f6FUTbL8kg&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=10).
 
 
+##Souldering
+
+Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus. I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked.
+
+![BoardReady](img/BoardReady300x400.jpg)
 
 
 ##How to program ATtiny412
 
 !!!Info "Eleventh part"
   
-     And finally he explaines how to program Attiny 412 [video](https://www.youtube.com/watch?v=So58u1hxy98&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=11).
+     Finally he explaines how to program Attiny 412 [video](https://www.youtube.com/watch?v=So58u1hxy98&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=11).
 
+To connect the board to a computer I needed a serial UPDi-3 pin, and [Svavar Konráðsson](https://www.fabisa.is/N%C3%A1msefni/Pre-Fab/2-rafrasasmidi/) told us that it was designed by [prof. Neil Gershenfeld](https://ng.cba.mit.edu/). I also needed a FTDI cord (rétt orð??) to make a connection from the pins on the board to USB on the computer. 
 
+ I created a new sketch in the Arduino app. According to the pinout datasheet for ATtiny412 and the PCB board design the LED is on pin 4 and the button is on pin 0. Therefore I began by defining that the LED was on pin 4 and the button on pin 0 in Arduino by writing #define LED 4 and in the next line below #define BUTTON 0. When // is added in front of text, the computer ignores it. That way you can use text to explain what is going to happen in each step.
 
+Here you can see how I followed the instructions from Andri (added some explanations myself) and wrote this code:
 
+ ```
 
+    //Defining which pin to use for LED and button
+    #define LED 4
+    #define BUTTON 0
+    
+    //Variable to keep track of how many button presses
+    uint8_t buttonPresses = 0;
+
+    //Defining what is input and what is output and that the input from the button is 
+    a pullup
+    void setup() { 
+        pinMode(LED, OUTPUT);
+        pinMode(BUTTON, INPUT_PULLUP);
+    }
+
+    //Creating a loop that follows a pattern and then repeats itself
+    void loop() { 
+        //Defining what happens if button is pressed  
+        if (digitalRead(BUTTON) == HIGH) }  
+        //Increment buttonPresses
+        buttonPresses++;
+
+        //If buttonPresses is greater than 4, reset it to 0
+        if (buttonPresses > 4)  {
+            buttonPresses = 0; 
+         }
+
+    ```
+
+In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**. Then I wrote **megatinycore** in the upper left window and chose **Install**. Then I clicked on **Tools**, **Board** and then **megaTinyCore** and then **ATtiny412**. After that I clicked on **Tools**, **Programmer** and then **SerialUPDI SLOW: 57600 baud**. 
+
+By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
+
+I clicked on **Sketch** and **Upload using programmer**. Now I could press the button on the board again and again to change how many times the LED blinked!
 
 

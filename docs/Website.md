@@ -120,7 +120,7 @@ In the beginning of my documentation I used the Snipping Tool
 Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. 
 
 
-**Loads of mistakes**
+**Lots of mistakes**
 
 One of the mistakes I made when creating this site was to make two yaml files in my Actions folder. [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) pointed this out to me and I deleted one blank yaml file.
 
