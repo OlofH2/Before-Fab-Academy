@@ -21,12 +21,12 @@ The next step was to learn about CSS, or Cascade Style Sheet, and how we can use
 By reading about what to do and what not to do on [here](https://www.markdownguide.org/basic-syntax/) it helps when writing a Markdown. I took another look at this page after some coding and realized that I was not doing everything the right way. I should have put a blank line before writing a heading, instead of writing the heading at the top of the terminal. I also should have pressed the space button between the hashtag symbol and the text in the heading, instead of not leaving space inbetween.
 
 
-**Cloning a repository**
+##Cloning a repository
 
-In VS Code I cloned the repository from my GitHub account. Then I clicked on the three points in the top bar, chose *Terminal* and then to *Open a new terminal*. 
+In VS Code I cloned the repository from my GitHub account. Then I clicked on the three points in the top bar, chose **Terminal** and then to **Open a new terminal**. 
 
 
-**Material for docs**
+##Material for docs
 
 To set up Material for docs I installed a Python package by copying and pasting this code:<pip install mkdocs-material> from this [website](https://squidfunk.github.io/mkdocs-material/getting-started//) into the terminal.  ![PIP install](img/PIP_install_200x28px.jpg)
 
@@ -58,14 +58,14 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
     Have fun changing admonitions by reading about them [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
 
-**Collapsable block**
+##Collapsable block
 
 ??? note "Toggle the arrow here on the right side"
 
     I think it´s absolutely brilliant to be able to make a collapsable block, like this one, with a small toggle to the right.
 
 
-**Inline block**
+##Inline block
 
 !!! info inline end "Inline blocks"
 
@@ -77,7 +77,7 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
 
     The photo is 400 pixels wide, 500 pixels was to wide so that the inline box did not fit beside the photo.
 
-**Icons and emojis :smile: **
+##Icons and emojis :smile: 
 
 An icon or an emoji can say so much and I found information about how to set them up [here](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/). I copied this code to enable the use of icons and emojis and pasted it into my mkdocs.yml:
 
@@ -88,7 +88,7 @@ An icon or an emoji can say so much and I found information about how to set the
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 ```
 
-**Adjusting colors on the page**
+##Adjusting colors on the page
 
 The colors on the page can be adjusted as explained [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/). 
 
@@ -106,12 +106,12 @@ The colors on the page can be adjusted as explained [here](https://squidfunk.git
 ```
 
 
-**Autosave in VS Code**
+##Autosave in VS Code
 
 It is possible to turn on Autosave in VS Code and I find that helpful because when I am documenting my changes appear almost instantly on my website and I can check out regurlarly how things look.
 
 
-**Compressing photos and videos**
+##Compressing photos and videos
 
 In the beginning of my documentation I used the Snipping Tool 
 
@@ -120,7 +120,7 @@ In the beginning of my documentation I used the Snipping Tool
 Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. 
 
 
-**Lots of mistakes**
+##Lots of mistakes
 
 One of the mistakes I made when creating this site was to make two yaml files in my Actions folder. [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) pointed this out to me and I deleted one blank yaml file.
 
