@@ -42,7 +42,7 @@ The next step was to click on the outline and then select **Profile toolpath**. 
 
 Under **Tool** I clicked on **Select** and chose the 0.25 inch downcut endmill. My co-teacher told me that I should keep the cutting depth within the diameter of the tool. Spindle speed should not be changed. In the video it is recommended that the feed rate (speed) should be between 2 and 3 inches per second, to be safe. 
 
-![CuttingToolOutline](img/CuttingToolSettingsForOutline300x260.jpg)
+![CuttingToolSettings_outline](img/CuttingToolSettingsForOutline600x519.jpg)
 
 I chose **Machine vectors** to be outside. Then I added **Tabs**. 
 Below the Tabs option there were a few settings and I chose the **Leads** option and checked in the box by **Add leads**. By activating it, there will be a nicer cut where the tool is going to plunge in because it begins the plunge just a little bit outside of the path and goes smoothly down in a tiny curve. Next to the **Leads** option there is another option called **Ramps**. I checked in **Add ramps to toolpath**. It is similar to **Leads** but works in the Y direction. Both **Ramps** and **Leads** work well whith the preset settings. 
@@ -55,7 +55,7 @@ Finally, I clicked on **Calculate**, gave the path a name and saved it. To previ
 
 I reset (cleared) the preview and opened the drawing again, because I decided to make the ellipse/outline smaller. Then I put tabs on again and increased the cut depth, so that it was 18mm. The material was 17.5mm so I added 0.5mm to the cutting depth. Then I calculated and previewed it again and everything looked ok.
 
-![WillCutThrough](img/Preview_outline_willCutThrough300x185.jpg)
+![WillCutThrough](img/Preview_outline_willCutThrough.jpg)
 
 The next step was to select the vectors in the inlay and click on **Quick ingrave toolpath**, which is a toolpath that creates depth and makes the sign become a relief. 
 
