@@ -220,10 +220,14 @@ After setting the x,y and z origin I pressed the **Cut** button, chose **Delete 
 
 ##Souldering
 
-Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus. I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked.
+Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus. I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked. 
 
 ![BoardReady](img/BoardReady300x400.jpg)
 
+
+...Well, when I thought everything was almost perfect and I checked if the LED was workin on the board, it didn´t seem to work. I decided to take it off and soulder a new one on to the board. That didn´t go well. The tin just would not stick to the plate. Then I realized that the copper film had fallen of the surface where the LED should be. I tried to use more tin to make a connection between the LED and the path it should connect to, but the tin piled up and it didn´t work. When I milled the board I made two copies, just in case I would have some problems and that was convenient now that my first board was ruined. I removed the elements from the board and souldered them to the other board and used a new LED this time. 
+
+<video controls src="img/466857257_8477712645690400_9083454305389622883_n.mp4" title="ConstantlyBlinking"></video>
 
 ##How to program ATtiny412
 
@@ -231,7 +235,7 @@ Many years ago I got to know souldering a little bit, but I have never souldered
   
      Finally he explaines how to program Attiny 412 [video](https://www.youtube.com/watch?v=So58u1hxy98&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=11).
 
-To connect the board to a computer I needed a serial UPDi-3 pin, and [Svavar Konráðsson](https://www.fabisa.is/N%C3%A1msefni/Pre-Fab/2-rafrasasmidi/) told us that it was designed by [prof. Neil Gershenfeld](https://ng.cba.mit.edu/). I also needed a FTDI cord (rétt orð??) to make a connection from the pins on the board to USB on the computer. 
+To connect the board to a computer I needed a serial UPDi-3 pin, and [Svavar Konráðsson](https://www.fabisa.is/N%C3%A1msefni/Pre-Fab/2-rafrasasmidi/) told us that it was designed by [prof. Neil Gershenfeld](https://ng.cba.mit.edu/). I also needed a FTDI cord (USB to TTL Serial Cable) to make a connection from the pins on the board to USB on the computer. 
 
  I created a new sketch in the Arduino app. According to the pinout datasheet for ATtiny412 and the PCB board design the LED is on pin 4 and the button is on pin 0. Therefore I began by defining that the LED was on pin 4 and the button on pin 0 in Arduino by writing #define LED 4 and in the next line below #define BUTTON 0. When // is added in front of text, the computer ignores it. That way you can use text to explain what is going to happen in each step.
 
@@ -239,15 +243,15 @@ Here you can see how I followed the instructions from Andri (added some explanat
 
  ```
 
-    //Defining which pin to use for LED and button
+        //Defining which pin to use for LED and button
     #define LED 4
     #define BUTTON 0
     
     //Variable to keep track of how many button presses
     uint8_t buttonPresses = 0;
 
-    //Defining what is input and what is output and that the input from the button is 
-    a pullup
+    //Defining what is input and what is output or input and pullup
+   
     void setup() { 
         pinMode(LED, OUTPUT);
         pinMode(BUTTON, INPUT_PULLUP);
@@ -255,15 +259,29 @@ Here you can see how I followed the instructions from Andri (added some explanat
 
     //Creating a loop that follows a pattern and then repeats itself
     void loop() { 
-        //Defining what happens if button is pressed  
-        if (digitalRead(BUTTON) == HIGH) }  
+      //Defining what happens if button is pressed  
+      if (digitalRead(BUTTON) == HIGH) {  
         //Increment buttonPresses
         buttonPresses++;
 
-        //If buttonPresses is greater than 4, reset it to 0
-        if (buttonPresses > 4)  {
-            buttonPresses = 0; 
-         }
+    //If buttonPresses is greater than 4, reset it to 0
+    if (buttonPresses > 4) {
+      buttonPresses = 0; 
+    }
+
+    // Blink LED based on buttonPresses count
+    for (uint8_t i = 0; 1 <buttonPresses; i++) {
+      digitalWrite(LED, HIGH);
+      delay(200);
+      digitalWrite(LED, LOW);
+      delay(200);
+  }  
+
+    // Wait for button to be released
+       while (digitalRead(BUTTON) == HIGH) {
+       } 
+     }  
+  }
 
     ```
 
@@ -271,6 +289,8 @@ In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**.
 
 By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
 
-I clicked on **Sketch** and **Upload using programmer**. Now I could press the button on the board again and again to change how many times the LED blinked!
+I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly. The code was obviously not correct.
+
+
 
 

@@ -3,14 +3,7 @@
 
 ##About the ShopBot
 
-CNC stands for Computer Numerical Control
-
-Router bits and end-mills
-
-Raster/bitmap vs. vector
-
-Speed: ips (inches per second)
-Can cut 2D (x and y) and we create 2D toolpath
+In the video it is explained that CNC stands for Computer Numerical Control and that the speed is measured in inches per second (ips).
 
 2.5D is usually used when making signs, so I would compare it to making a relief. Router travels by x and y axis and only uses the z-axis to go in and out of toolpaths. To do a 3D work you would have to design a 3D model. 
 
@@ -19,6 +12,11 @@ Can cut 2D (x and y) and we create 2D toolpath
 I used the program [VCarve pro](https://www.markdownguide.org/basic-syntax/) to design my sign. 
 
 I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm.
+
+
+!!! Job setup"
+
+    I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm. 
 
 ![JobSetup](img/JobSetup230x613.png)
 
@@ -57,7 +55,18 @@ I reset (cleared) the preview and opened the drawing again, because I decided to
 
 ![WillCutThrough](img/Preview_outline_willCutThrough.jpg)
 
-The next step was to select the vectors in the inlay and click on **Quick ingrave toolpath**, which is a toolpath that creates depth and makes the sign become a relief. 
+The next step was to select the vectors in the inlay and click on **Quick ingrave toolpath**, which is a toolpath that creates depth and makes the sign become a relief. When I planned on choosing the same V-bit as in the video, I could not find the same size for 60 degrees. The same thing happened when I followed the directions on how to use the VCarve settings, so I chose a 1/2" 60 degree V-bit and set the depth to 1mm before calculating.
+
+##Prepairing the ShopBot
+
+In the video it says that it´s a good idea to reset the machine between jobs just by switching the red switch on and off. Then I fastened the material in four corners with screws. I moved the spindle over the material and then pressed **Escape** to leave the manual
+
+Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. After that I set x and y to zero manually. When the router bit was over the right spot, I pressed **Escape** and set this point to zero by clicking on **Zero** and then **Zero to x and y**. Then I chose **Jog** and **Jog home**. 
+
+##Performing the cut
+
+I clicked on **Cut file** .............. and open the right file. Then a window popped up and I pressed **Enter**. Important: Never change any settings in this window!
+
 
 
 
