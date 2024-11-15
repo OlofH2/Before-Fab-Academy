@@ -289,6 +289,14 @@ By clicking on **Tools** and **Port** I could see a list of ports. Then I connec
 
 I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly. The code was obviously not correct.
 
+
+!!! info inline end "Code not working"
+
+    Everything worked except that the LED blinked constantly. The code was obviously not correct.
+
+<video controls src="img/466857257_8477712645690400_9083454305389622883_n.mp4" title="ConstantlyBlinking"></video>
+
+
 <video controls src="img/466857257_8477712645690400_9083454305389622883_n.mp4" title="ConstantlyBlinking"></video>
 
 Doddi advised me to change the time of the delay from 200 to 2000. That way it was easier to see how the LED was behaving. Then I took a better look at the code and saw that in one place I had written the number **1** instead of the letter **i**. I fixed that and then everything worked as it should.

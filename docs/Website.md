@@ -5,41 +5,72 @@ I had a lot to learn and many steps to go through when creating this website. Ev
 
 A few years back I created a simple website using a template from [Wix](https://www.wix.com/). Then, a few months ago, I participated in adding information to a website made by [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html) and [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html). I did this by using GitHub web editor, so I had gotten to know editing Markdown a little bit. This helped me a lot.
 
+
+##Compressing photos and videos
+
+In the beginning of my documentation I used the Snipping Tool 
+
+![Snipping tool](img/Snipping_tool_b.jpg)
+
+Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. 
+
+
+
+!!! example "Greenshot"
+
+    With Greenshot you can take screenshots to document everything. You can download it [here](https://getgreenshot.org/).  
+
+
+!!! example "FFMPEG"
+
+    You can use FFMPEG to compress videos. That is very helpful since videos tend to be very large files. You can download it [here](https://ffmpeg.org/download.html).  
+
+
+
 ##Setting up programs
 
 To prepare the creation of this website and documentation of the assignments it was necessary to install a few programs:
 
 
-[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+!!! example "Python"
 
-On this Python website Python is explained as a language for programming that works fast and is effective in integrating systems. On their [site](https://www.python.org/about/gettingstarted/) you can find directions for beginners.
+    On Python´s [website](https://www.python.org/about/gettingstarted/) Python is explained as a language for programming that works fast and is effective in integrating systems. There you can find directions for beginners.
 
-[GitHub](https://github.com/)
 
-In this [video](https://www.youtube.com/watch?v=pBy1zgt0XPc) GitHub is explained in a fun way. You can use GitHub to code and store data, both on your own or in collaboration with others. I had signed up in GitHub a few months ago so I had an account but when I installed Visual Studio Code I had to connect VSC to my GitHub account.
+!!! example "GitHub"
 
-[Visual Studio Code]https://code.visualstudio.com/()
+    In this [video](https://www.youtube.com/watch?v=pBy1zgt0XPc) GitHub is explained in a fun way. You can use GitHub to code and store data, both on your own or in collaboration with others. I had signed up in GitHub a few months ago so I had an account but when I installed Visual Studio Code I had to connect VSC to my GitHub account. The link to GitHub is [here](https://github.com/)
 
-According to their website, in VS Code you can code in different programming languages, f.ex. HTML, Python, Json, Javascript, YAML and create Markdown and that is exactly what I needed to do when creating my website. One more thing; it is necessary to close VS Code after installing programs or adding extensions and then open it again to begin working.
 
-[GitHub Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+!!! example "Visual Studio Code"
 
-GitHub Graph can be used as an extension in Visual Studio Code. When you click on it you can see all commits in a pictorial tree/timeline. You can travel between changes in files and restore old commits if necessesary. I like the picturesque look of all the actions because it helps getting a good overview of what has been done.
+    According to their website, in VS Code you can code in different programming languages, f.ex. HTML, Python, Json, Javascript, YAML and create Markdown and that is exactly what I needed to do when creating my website. One more thing; it is necessary to close VS Code after installing programs or adding extensions and then open it again to begin working. [Information here](https://code.visualstudio.com/). 
 
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+!!! example "GitHub Graph"
 
-Material for MkDocs is a site generator that can build HTML sites and it works well with GitHub and Visual Studio Code. You can choose between different themes and add plugins. I like the clear instructions that can be found on their [website](https://www.mkdocs.org/). A great help for beginners like me. 
+    GitHub Graph can be used as an extension in Visual Studio Code. When you click on it you can see all commits in a pictorial tree/timeline. You can travel between changes in files and restore old commits if necessesary. I like the picturesque look of all the actions because it helps getting a good overview of what has been done. [See here](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph).  
 
-[Greenshot](https://getgreenshot.org/)
 
-With Greenshot you can take screenshots to document everything.
 
-KiCad
+!!! example "Material for MkDocs"
 
-KiCad Library
+    Material for MkDocs is a site generator that can build HTML sites and it works well with GitHub and Visual Studio Code. You can choose between different themes and add plugins. I like the clear instructions that can be found on their [website](https://www.mkdocs.org/).  
 
-One helpful note: When switching between programs in your computer you can press ALT + TAB
-Ath textann hér fyrir ofan - laga!
+
+
+##Useful tips
+
+
+!!! tip "Autosave in VS Code"
+  
+    It is possible to turn on Autosave in VS Code and I find that helpful because when I am documenting my changes appear almost instantly on my website and I can check out regurlarly how things look. 
+
+
+!!! tip "Switching between programs"
+
+    One helpful tip: When switching between programs in your computer you can press ALT + TAB 
+
+
 
 ##Understanding HTML+Javascript
 
@@ -141,21 +172,8 @@ The colors on the page can be adjusted as explained [here](https://squidfunk.git
 ```
 
 
-##Autosave in VS Code
 
-It is possible to turn on Autosave in VS Code and I find that helpful because when I am documenting my changes appear almost instantly on my website and I can check out regurlarly how things look.
-
-
-##Compressing photos and videos
-
-In the beginning of my documentation I used the Snipping Tool 
-
-![Snipping tool](img/Snipping_tool_b.jpg)
-
-Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. 
-
-
-##Lots of mistakes
+##Mistakes
 
 One of the mistakes I made when creating this site was to make two yaml files in my Actions folder. [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) pointed this out to me and I deleted one blank yaml file.
 
