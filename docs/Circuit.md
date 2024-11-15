@@ -222,7 +222,7 @@ After setting the x,y and z origin I pressed the **Cut** button, chose **Delete 
 
 Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus. I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked. 
 
-![BoardReady](img/BoardReady300x400.jpg)
+![BoardReady](img/BoardReady300x400.jpg)       ![OldAndNewBoard](img/OldAndNewBoard300x400.jpg) 
 
 
 ...Well, when I thought everything was almost perfect and I checked if the LED was workin on the board, it didn´t seem to work. I decided to take it off and soulder a new one on to the board. That didn´t go well. The tin just would not stick to the plate. Then I realized that the copper film had fallen of the surface where the LED should be. I tried to use more tin to make a connection between the LED and the path it should connect to, but the tin piled up and it didn´t work. When I milled the board I made two copies, just in case I would have some problems and that was convenient now that my first board was ruined. I removed the elements from the board and souldered them to the other board and used a new LED this time. 

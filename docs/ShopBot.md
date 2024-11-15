@@ -69,5 +69,6 @@ I clicked on **Cut file** .............. and open the right file. Then a window 
 
 
 
+<video controls src="img/ShopBotSign.mp4" title="ShopBotSign"></video>
 
 
