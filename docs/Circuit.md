@@ -227,8 +227,6 @@ Many years ago I got to know souldering a little bit, but I have never souldered
 
 ...Well, when I thought everything was almost perfect and I checked if the LED was workin on the board, it didn´t seem to work. I decided to take it off and soulder a new one on to the board. That didn´t go well. The tin just would not stick to the plate. Then I realized that the copper film had fallen of the surface where the LED should be. I tried to use more tin to make a connection between the LED and the path it should connect to, but the tin piled up and it didn´t work. When I milled the board I made two copies, just in case I would have some problems and that was convenient now that my first board was ruined. I removed the elements from the board and souldered them to the other board and used a new LED this time. 
 
-<video controls src="img/466857257_8477712645690400_9083454305389622883_n.mp4" title="ConstantlyBlinking"></video>
-
 ##How to program ATtiny412
 
 !!!Info "Eleventh part"
@@ -290,6 +288,9 @@ In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**.
 By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
 
 I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly. The code was obviously not correct.
+
+
+<video controls src="img/466857257_8477712645690400_9083454305389622883_n.mp4" title="ConstantlyBlinking"></video>
 
 
 
