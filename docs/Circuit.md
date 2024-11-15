@@ -273,13 +273,13 @@ Here you can see how I followed the instructions from Andri (added some explanat
       delay(200);
       digitalWrite(LED, LOW);
       delay(200);
-  }  
+    }  
 
     // Wait for button to be released
        while (digitalRead(BUTTON) == HIGH) {
        } 
      }  
-  }
+    }
 
     ```
 
