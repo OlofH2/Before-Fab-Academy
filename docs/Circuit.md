@@ -220,7 +220,11 @@ After setting the x,y and z origin I pressed the **Cut** button, chose **Delete 
 
 ##Souldering
 
-Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus. I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked. 
+Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus, as you can see in the following video: 
+
+<video controls src="img/FindingPlusAndMinusOnLed.mp4" title="Title"></video>
+
+I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked. 
 
 ![BoardReady](img/BoardReady300x400.jpg)       ![OldAndNewBoard](img/OldAndNewBoard300x400.jpg) 
 

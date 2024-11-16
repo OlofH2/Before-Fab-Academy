@@ -3,11 +3,20 @@
 
 ##About the ShopBot
 
-In the video it is explained that CNC stands for Computer Numerical Control and that the speed is measured in inches per second (ips).
+
+!!! note "A few notes"
+
+    In the video it is explained that CNC stands for Computer Numerical Control. 
+    The speed is measured in inches per second (ips).
+    2.5D is usually used when making signs, so I would compare it to making a relief. 
+    Router travels by x and y axis and only uses the z-axis to go in and out of toolpaths. 
+    To do a 3D work you would have to design a 3D model. 
+
+
 
 2.5D is usually used when making signs, so I would compare it to making a relief. Router travels by x and y axis and only uses the z-axis to go in and out of toolpaths. To do a 3D work you would have to design a 3D model. 
 
-##Designing the sign
+##Designing in VCarve
 
 I used the program [VCarve pro](https://www.markdownguide.org/basic-syntax/) to design my sign. 
 
@@ -65,9 +74,14 @@ Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal p
 
 ##Performing the cut
 
-I clicked on **Cut file** .............. and open the right file. Then a window popped up and I pressed **Enter**. Important: Never change any settings in this window!
+I clicked on **Cut file** .............. and open the right file. 
 
 
+!!! warning "Keep settings unchanged"
+
+    Important: Never change any settings in this window!
+
+##Video
 
 <video controls src="img/ShopBotSign.mp4" title="ShopBotSign"></video>
 

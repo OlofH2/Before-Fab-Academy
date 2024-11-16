@@ -167,7 +167,9 @@ The colors on the page can be adjusted as explained [here](https://squidfunk.git
 
 !!!Info
   
+  
     I like being able to format text, f.ex. to higlight or underline words and to write keyboard keys, as described [here](https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-text), so I copied the code below and added it to mkdocs.yml:
+
 
 ``` 
   - pymdownx.critic
@@ -176,8 +178,6 @@ The colors on the page can be adjusted as explained [here](https://squidfunk.git
   - pymdownx.mark
   - pymdownx.tilde
 ```
-
-
 
 ##Mistakes
 
