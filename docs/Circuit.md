@@ -306,6 +306,6 @@ I clicked on **Sketch** and **Upload using programmer**. Everything worked excep
 
 Doddi advised me to change the time of the delay from 200 to 2000. That way it was easier to see how the LED was behaving. Then I took a better look at the code and saw that in one place I had written the number **1** instead of the letter **i**. I fixed that and then everything worked as it should.
 
-Finally ready and me feeling pure joy :smile:  :partying face: 
+Finally ready and I felt pure joy :smile:
 
 
