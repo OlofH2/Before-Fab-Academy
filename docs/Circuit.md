@@ -1,10 +1,14 @@
 
 #Producing and programming a circuit board with ATtiny412
 
+This is a video showing the circuit board that I made:
+
 <video controls src="img/ButtonBlinkingLandscape.mp4" title="ButtonBlinking"></video>
 
-[Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.
 
+##Done with directions from Andri Sæmundsson
+
+[Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.
 ##KiCad setup
 
 !!!Info "The first part"
@@ -293,7 +297,7 @@ In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**.
 
 By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
 
-I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly. The code was obviously not correct.
+I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly, as can be seen in the video below. The code was obviously not correct.
 
 
 <video controls src="img/ConstantBlinking2.mp4" title="Title"></video>
@@ -302,6 +306,6 @@ I clicked on **Sketch** and **Upload using programmer**. Everything worked excep
 
 Doddi advised me to change the time of the delay from 200 to 2000. That way it was easier to see how the LED was behaving. Then I took a better look at the code and saw that in one place I had written the number **1** instead of the letter **i**. I fixed that and then everything worked as it should.
 
-
+Finally ready and me feeling pure joy :smile:  :partying face: 
 
 
