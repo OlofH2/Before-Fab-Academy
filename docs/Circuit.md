@@ -1,6 +1,8 @@
 
 #Producing and programming a circuit board with ATtiny412
 
+<video controls src="img/ButtonBlinkingLandscape.mp4" title="ButtonBlinking"></video>
+
 [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.
 
 ##KiCad setup
