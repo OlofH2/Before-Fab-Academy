@@ -9,7 +9,8 @@ theme:
     - navigation.sections
 
   palette:
-    primary: blue grey
+    primary: indigo
+    accent: cyan
    
   features:
       - navigation.tracking
