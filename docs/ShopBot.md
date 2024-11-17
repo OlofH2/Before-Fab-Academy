@@ -1,8 +1,13 @@
 
-#Using the ShopBot
+#ShopBot
+
+
+<video controls src="img/ShopBotSign.mp4" title="ShopBotSign"></video>
+*This is the sign that I designed and produced.*
 
 ##About the ShopBot
 
+This week´s assignment was to watch this [video](https://www.youtube.com/watch?v=pGVNDf1vgSI) made by [Matt Hatcher](https://www.linkedin.com/in/matthewhatcher4281/) and follow the instructions on how to design a sign in VCarve and produce it in the ShopBot.
 
 !!! note "A few notes"
 
@@ -23,7 +28,7 @@ I used the program [VCarve pro](https://www.markdownguide.org/basic-syntax/) to 
 I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm.
 
 
-!!! Job setup"
+!!! note "Job setup"
 
     I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm. 
 
@@ -66,23 +71,65 @@ I reset (cleared) the preview and opened the drawing again, because I decided to
 
 The next step was to select the vectors in the inlay and click on **Quick ingrave toolpath**, which is a toolpath that creates depth and makes the sign become a relief. When I planned on choosing the same V-bit as in the video, I could not find the same size for 60 degrees. The same thing happened when I followed the directions on how to use the VCarve settings, so I chose a 1/2" 60 degree V-bit and set the depth to 1mm before calculating.
 
+![AllToolpaths](img/Preview_allToolpaths.jpg)
+
 ##Prepairing the ShopBot
 
-In the video it says that it´s a good idea to reset the machine between jobs just by switching the red switch on and off. Then I fastened the material in four corners with screws. I moved the spindle over the material and then pressed **Escape** to leave the manual
+In the video it says that it´s a good idea to reset the machine between jobs just by switching the red switch on and off. Then I fastened the material in four corners with screws. 
+I the ShopBot 3 program an a control panel opened up. On it there is a yellow button, called **To move tool** and I clicked on it. There I could move the spindle around manually. 
 
-Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. After that I set x and y to zero manually. When the router bit was over the right spot, I pressed **Escape** and set this point to zero by clicking on **Zero** and then **Zero to x and y**. Then I chose **Jog** and **Jog home**. 
+
+I moved the spindle to a good spot where I could easily acces the spindle to change the router bit. I used a special tool and a __________ to loosen the router bit that was in the machine. For safety reasons this special tool is fastened to the machine with að key and I had to take it out of the switch when I changed the bit. When this key is taken out of the switch, the machine cannot operate.  
+
+Then I moved the spindle over the material and then pressed **Escape** to leave the manual
+
+ After that I set x and y to zero manually. When the router bit was over the right spot, I pressed **Escape** and set this point to zero by clicking on **Zero** and then **Zero to x and y**. Then I chose **Jog** and **Jog home**. 
+
+
+!!! info inline end "Prepairing to set Z to zero"
+
+    Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. 
+
+![ReadyToSetZtoZero](img/SettingZeroHeight300x400.jpg)
+
+![FinishedZeroingZ](img/ZsetToZero_300x225.jpg)
+
+
+!!! info inline end "Setting the x and y to zero"
+
+    Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. 
+
+
+
+
+!!! info "Maximum spindle speed for cutting wood"
+
+    The maximum spindle speed for cutting wood is 13.000. 
+
+
 
 ##Performing the cut
 
+I turned the dust collector on before I made the ShobBot mill and cut. 
 I clicked on **Cut file** .............. and open the right file. 
+
+![CutFile](img/CutFile_300x400.jpg)
 
 
 !!! warning "Keep settings unchanged"
 
     Important: Never change any settings in this window!
 
-##Video
+##Cutting depth
 
-<video controls src="img/ShopBotSign.mp4" title="ShopBotSign"></video>
+I will exhange this video with a smaller one, once I have managed to resize it :smile:
+
+
+!!! info inline end "Cutting depth and splinters"
+
+    In this video you can see the ShopBot working on my sign. All around it are paths and patterns that show how deep the cut was in designs previously made by others. I wanted to avoid deep cuts, so I only added 0.5mm to the thickness of the material. That was not quite enough because when I loosened the screws and checked the backside, the cutting path was laced with splinters. I had to sand them all to make the sign smooth, but that was okey because I also had to file and sand the leftovers of tabs after I chiseled the sign out of it´s frame. 
+
+<video controls src="img/ShopBotWorking.mp4" title="ShopBotWorking"></video>
+
 
 
