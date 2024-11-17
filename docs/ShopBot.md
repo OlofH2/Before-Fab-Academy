@@ -7,46 +7,49 @@
 
 ##About the ShopBot
 
-This week´s assignment was to watch this [video](https://www.youtube.com/watch?v=pGVNDf1vgSI) made by [Matt Hatcher](https://www.linkedin.com/in/matthewhatcher4281/) and follow the instructions on how to design a sign in VCarve and produce it in the ShopBot.
-
-!!! note "A few notes"
-
-    In the video it is explained that CNC stands for Computer Numerical Control. 
-    The speed is measured in inches per second (ips).
-    2.5D is usually used when making signs, so I would compare it to making a relief. 
-    Router travels by x and y axis and only uses the z-axis to go in and out of toolpaths. 
-    To do a 3D work you would have to design a 3D model. 
 
 
+!!! note "Assignment"
 
-2.5D is usually used when making signs, so I would compare it to making a relief. Router travels by x and y axis and only uses the z-axis to go in and out of toolpaths. To do a 3D work you would have to design a 3D model. 
+    This week´s assignment was to watch this [video](https://www.youtube.com/watch?v=pGVNDf1vgSI) made by [Matt Hatcher](https://www.linkedin.com/in/matthewhatcher4281/) and follow the instructions on how to design a sign and produce it in the ShopBot.
+
+
+2.5D is usually used when making signs, so I would compare it to making a relief. Router travels by x- and y-axis and only uses the z-axis to go in and out of toolpaths. To do a 3D work you would have to design a 3D model. 
 
 ##Designing in VCarve
 
-I used the program [VCarve pro](https://www.markdownguide.org/basic-syntax/) to design my sign. 
 
-I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm.
+!!! note "VCarve"
+
+    I used the program [VCarve pro](https://www.markdownguide.org/basic-syntax/) to design my sign. 
+
+I did some experimenting in the beginning, f.ex. tested how to draw a perfect rectangle by choosing the rectangle and holding the **Control** button when clicking and drawing with the mouse. 
+!!! info inline end "Job setup"
 
 
-!!! note "Job setup"
-
-    I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm. 
+    I began by filling in the size of the material I wanted to use. I wrote 382mm x 200mm. It is very important to always measure the thickness of the material because it can vary. I set the thickness to 17.5mm. I **set the xy origin position to bottom left** and made sure that **Use offset was NOT chosen**. I **set the z origin to the top of the material.** I set **Modeling resolution** to **Standard** and chose the **MDF** look.
 
 ![JobSetup](img/JobSetup230x613.png)
 
-I tested how to draw a perfect rectangle by choosing the rectangle and holding the **Control** button when clicking and drawing with the mouse. I deleted it and drew an ellipse. Then I wrote a text by clicking on the big T. When the text was on the plate I resized it by using the resizing arrow, clicked on the text and dragged one corner to make it smaller. By holding the **Shift** key whilst doing that it centered and rezised it all.
+
+I drew an ellipse. Then I wrote a text by clicking on the big T. When the text was on the plate I resized it by using the resizing arrow, clicked on the text and dragged one corner to make it smaller. By holding the **Shift** key whilst doing that it centered and rezised it all.
 
 To use a ruler as a measurement guide I chose the normal arrow (for the mouse), left-clicked on the ruler and held it down as I dragged it to where I wanted to have a guide line. 
-
-By pressing fn and F12 the toolpath settings open up and by pressing fn and F11 these settings are closed and the drawing tab appears again. In 
-
-I double clicked on the icon near **material setup** and adjusted the following:
-I **set the xy origin position to bottom left** and made sure that **Use origin offset was NOT chosen**. I **set the z origin to the top of the material.**
+ 
+On the right side of the screen I double clicked on the icon near **material setup** and adjusted the following:
 
 Under **Rapid Z gaps above material** I clicked **Above material** and set **Clearance Z1** and  **Plunge Z2** to 5mm. In the video this was set to 0.5 inhces, which equals 12.7mm, but a co-teacher of mine said that it would be okay to set it to 5mm since the material I was using was even. 
 
 Home/start position was set to: x=0, y=0 and z=20 (mm). **The z should never be set to 0.**
 Then I clicked on **ok**.
+
+!!! note "Key shortcuts"
+
+    By pressing **fn** and **F12** the toolpath settings open up and by pressing **fn** and **F11** these settings are closed and the drawing tab appears again. 
+
+   
+
+##Creating a toolpath
 
 The next step was to click on the outline and then select **Profile toolpath**. The **start depth** should always (usually) be set to 0. I wanted to cut the material in two passes, so the cutting depth should be around just over half of the thickness of the material in each pass. So I set the cutting depth to 9mm.
 
@@ -56,10 +59,17 @@ Under **Tool** I clicked on **Select** and chose the 0.25 inch downcut endmill. 
 
 ![CuttingToolSettings_outline](img/CuttingToolSettingsForOutline600x519.jpg)
 
-I chose **Machine vectors** to be outside. Then I added **Tabs**. 
-Below the Tabs option there were a few settings and I chose the **Leads** option and checked in the box by **Add leads**. By activating it, there will be a nicer cut where the tool is going to plunge in because it begins the plunge just a little bit outside of the path and goes smoothly down in a tiny curve. Next to the **Leads** option there is another option called **Ramps**. I checked in **Add ramps to toolpath**. It is similar to **Leads** but works in the Y direction. Both **Ramps** and **Leads** work well whith the preset settings. 
 
-![AddTabsToToolpath](img/AddTabsToToolpath300x145.jpg)
+##Tabs, Leads and Ramps
+
+!!! info inline end "Tabs, Leads and Ramps"
+
+    I chose **Machine vectors** to be outside. Then I added **Tabs**. Below the Tabs option there were a few settings and I chose the **Leads** option and checked in the box by **Add leads**. By activating it, there will be a nicer cut where the tool is going to plunge in because it begins the plunge just a little bit outside of the path and goes smoothly down in a tiny curve. Next to the **Leads** option there is another option called **Ramps**. I checked in **Add ramps to toolpath**. It is similar to **Leads** but works in the Y direction. Both **Ramps** and **Leads** work well whith the preset settings. 
+
+![TabsRampsLeads](img/TabsRampsAndLeads200x533.png)
+
+
+##Saving and previewing path
 
 Finally, I clicked on **Calculate**, gave the path a name and saved it. To preview it i had to click on the name and then choose **Preview the selected toolpath**. When I previewed it I realized that I had made a mistake. It did not cut through because I wrote the wrong size in **Cut depth**. 
 
@@ -69,15 +79,16 @@ I reset (cleared) the preview and opened the drawing again, because I decided to
 
 ![WillCutThrough](img/Preview_outline_willCutThrough.jpg)
 
-The next step was to select the vectors in the inlay and click on **Quick ingrave toolpath**, which is a toolpath that creates depth and makes the sign become a relief. When I planned on choosing the same V-bit as in the video, I could not find the same size for 60 degrees. The same thing happened when I followed the directions on how to use the VCarve settings, so I chose a 1/2" 60 degree V-bit and set the depth to 1mm before calculating.
+The next step was to select the vectors in the inlay and click on **Quick ingrave toolpath**, which is a toolpath that creates depth and makes the sign become a relief. When I planned on choosing the same V-bit as in the video, I could not find the same size for 60 degrees. The same thing happened when I followed the directions on how to use the VCarve settings, so I chose a 1/2" 60 degree V-bit and set the depth to 6mm before calculating.
 
 ![AllToolpaths](img/Preview_allToolpaths.jpg)
 
 ##Prepairing the ShopBot
 
 In the video it says that it´s a good idea to reset the machine between jobs just by switching the red switch on and off. Then I fastened the material in four corners with screws. 
-I the ShopBot 3 program an a control panel opened up. On it there is a yellow button, called **To move tool** and I clicked on it. There I could move the spindle around manually. 
+I the ShopBot 3 program an a control panel opened up. On it there is a yellow button, called **To move tool** and I clicked on it. There I could move the spindle around manually. I moved it to a spot where I could safely do a heat up routine without the spindle or router bit hitting anything.
 
+.................
 
 I moved the spindle to a good spot where I could easily acces the spindle to change the router bit. I used a special tool and a __________ to loosen the router bit that was in the machine. For safety reasons this special tool is fastened to the machine with að key and I had to take it out of the switch when I changed the bit. When this key is taken out of the switch, the machine cannot operate.  
 
@@ -100,26 +111,24 @@ Then I moved the spindle over the material and then pressed **Escape** to leave 
 
 
 
-
 ![XandY](img/Z_300x400.jpg)
 
-!!! info "Maximum spindle speed for cutting wood"
+!!! warning "Maximum spindle speed for cutting wood"
 
     The maximum spindle speed for cutting wood is 13.000. 
-
 
 
 ##Performing the cut
 
 I turned the dust collector on before I made the ShobBot mill and cut. 
-I clicked on **Cut file** .............. and open the right file. 
+I clicked on **Cut part** and open the right file. 
 
 ![CutFile](img/CutFile_300x400.jpg)
 
 
-!!! warning "Keep settings unchanged"
+!!! warning "Important"
 
-    Important: Never change any settings in this window!
+    Never change any settings in this window!
 
 ##Cutting depth
 
