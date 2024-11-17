@@ -88,19 +88,20 @@ Then I moved the spindle over the material and then pressed **Escape** to leave 
 
 !!! info inline end "Prepairing to set Z to zero"
 
-    Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. 
+    Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. The machine did this two times. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. 
 
 ![ReadyToSetZtoZero](img/SettingZeroHeight300x400.jpg)
 
-![FinishedZeroingZ](img/ZsetToZero_300x225.jpg)
 
 
 !!! info inline end "Setting the x and y to zero"
 
-    Under **Cuts** I selected **Zero z axis to zero plate**. Then I placed a metal plate, that is fastened to the machine, under the bit. The machine lowered it´s until the bit touched the plate. When they touched, a circuit let the machine know and the zero point was set. Then I returned the metal plate to the slot, where it is always kept. 
+    I moved the spindle to the left lower corner of the plate I wanted to cut. When I had found the right spot I clicked on the X and Y button (the middle button). 
 
 
 
+
+![XandY](img/Z_300x400.jpg)
 
 !!! info "Maximum spindle speed for cutting wood"
 
