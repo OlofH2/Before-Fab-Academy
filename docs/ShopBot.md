@@ -55,7 +55,7 @@ The next step was to click on the outline and then select **Profile toolpath**. 
 
 ##Selecting the right tool
 
-Under **Tool** I clicked on **Select** and chose the 0.25 inch downcut endmill. My co-teacher told me that I should keep the cutting depth within the diameter of the tool. Spindle speed should not be changed. In the video it is recommended that the feed rate (speed) should be between 2 and 3 inches per second, to be safe. 
+Under **Tool** I clicked on **Select** and chose the 0.25 inch downcut endmill. My collegue, Eyþór Halldórsson, assisted me on preparing and operating the Shopbot. He told me that I should keep the cutting depth within the diameter of the tool. Spindle speed should not be changed. In the video it is recommended that the feed rate (speed) should be between 2 and 3 inches per second, to be safe. 
 
 ![CuttingToolSettings_outline](img/CuttingToolSettingsForOutline600x519.jpg)
 
