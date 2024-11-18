@@ -43,9 +43,7 @@ ffmpeg -i input_video.mov -vcodec libx264 -crf 25 -preset veryslow -movflags +fa
 
 !!! Failure "Not as easy as it seemed"
 
-    This sounded easy and I wanted to follow these instructions on how to use FFmpeg to resize a video, but it didn´t work at all. The computer said that it didn´t recognize the FFmpeg as an internal or external command, operable program or batch file. [Árni Björnsson](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/) sent me two links to help me understand how to solve this problem and set FFmpeg up the right way. The first link explaines what external variables are and how to edit them, see [here](https://www.howtogeek.com/787217/how-to-edit-environment-variables-on-windows-10-or-11/). The second link is a guide to how FFmpeg is set up, see [here](https://windowsloop.com/install-ffmpeg-windows-10/). 
-
-
+    This sounded easy and I wanted to follow these instructions on how to use FFmpeg to resize a video, but it didn´t work at all. The computer said that it didn´t recognize the FFmpeg as an internal or external command, operable program or batch file. [Árni Björnsson](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/) sent me two links to help me understand how to solve this problem and set FFmpeg up the right way. The first link explaines what external variables are and how to edit them, see [here](https://www.howtogeek.com/787217/how-to-edit-environment-variables-on-windows-10-or-11/). The second link is a guide to how FFmpeg is set up, see [here](https://windowsloop.com/install-ffmpeg-windows-10/). I had to ask a collegue of mine, Viðar Guðmundsson, to assist me. He is an administrator at my scool. He followed the instructions on this [site](https://phoenixnap.com/kb/ffmpeg-windows) to put FFmpeg to path.
 
 
 ##Setting up programs
