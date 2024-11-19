@@ -139,7 +139,7 @@ I will exhange this video with a smaller one, once I have managed to resize it :
 
     In this video you can see the ShopBot working on my sign. All around it are paths and patterns that show how deep the cut was in designs previously made by others. I wanted to avoid deep cuts, so I only added 0.5mm to the thickness of the material. That was not quite enough because when I loosened the screws and checked the backside, the cutting path was laced with splinters. I had to sand them all to make the sign smooth, but that was okey because I also had to file and sand the leftovers of tabs after I chiseled the sign out of it´s frame. 
 
-<video controls src="img/ShopBotWorking.mp4" title="ShopBotWorking"></video>
+
 
 
 
