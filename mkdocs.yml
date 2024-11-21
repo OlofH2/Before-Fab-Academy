@@ -43,5 +43,6 @@ nav:
     - Designing, producing and programming a circuit: Circuit.md
     - ShopBot: ShopBot.md
     - Computer aided design: ComputerAidedDesign.md
+    - Final project: FinalProject.md
 
 use_directory_urls: false
