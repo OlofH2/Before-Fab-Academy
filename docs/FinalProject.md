@@ -5,5 +5,5 @@
 ................
 
 
-![GreenlandShark](docs/img/MindMap_GreenlandShark.jpg)
+![GreenlandShark](img/GreenlandShark_Mindmap.jpg)
 
