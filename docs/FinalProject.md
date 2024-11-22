@@ -17,6 +17,6 @@ In the beginning I had so many starting points to choose from but it was quite d
 
 ![SunBehindMountains](img/SunBehindMountains_86kb.jpg)
 
-![GreenlandShark](img/GreenlandShark_Mindmap.jpg)
+![GreenlandShark](img/GreenlandShark.jpg)
 
 
