@@ -27,10 +27,14 @@ The other possibility is to make this a small lamp. I would fit the embedded mic
 ![Shark](img/Shark.jpg)
 
 
-* Something that acts as a living being:
+* I wanted to do something that acts as a living being og gives you that sense, f.ex.:
     - A plant that raises her leaves in daylight and loweres them at night.
     - An animal form that rises up at certain time and kneels after some time.
     - An animal that swims/moves in slow movements (Greenland shark?)
+
+Then I saw the final project called Cloudio in Fab Academy by [Wim Lance](https://archive.fabacademy.org/archives/2017/fablabbcn/students/4/?fbclid=IwY2xjawGtV-xleHRuA2FlbQIxMAABHf_CMNKYg_JXdylS7TvDwCbYmvoqZ3rK_b5B2yk4m1mZU0VTOpcq3RT0cg_aem_BLl3n2J2xJ3GL85Ako3vgA) and I liked the idea about levitation very much. I wondered if I could do something similar with my Greenland shark idea. I would like to see it floating calmly in the air, just as it floats slowly around in the cold sea. Maybe it would be possible to lasercut wavelike lines in the box/base and let Neopixel lights move and shine out of the box, casting ripples onto the walls or ceiling as if it was a reflection from the sea.
+
+I would do a 3D design and print the shark. The box would be cut out of birch plywood and all elements, microcomputer, battery, solenoid coils?, magnetic wave sensor? packaged in the box. The shark would include ......
 
 ###Mindmap for Greenland shark
 
