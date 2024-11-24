@@ -18,10 +18,9 @@ The other possibility is to make this a small lamp. I would fit the embedded mic
 
 ###Mindmaps for Sun Wall and Sun Lamp
 
-![SunLampMindmap](img/SunLamp.jpg)
+![SunWallMindmap](img/SunWallMindmap.jpg)
 
-![SunWallMindmap](img/SunWall.jpg)
-
+![SunLampMindmap](img/SunLampMindmap.jpg)
 
 ###The Greenland Shark
 
