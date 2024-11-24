@@ -27,12 +27,15 @@ The other possibility is to make this a small lamp. I would fit the embedded mic
 
 ![Shark](img/Shark.jpg)
 
+
 * Something that acts as a living being:
     - A plant that raises her leaves in daylight and loweres them at night.
     - An animal form that rises up at certain time and kneels after some time.
     - An animal that swims/moves in slow movements (Greenland shark?)
 
+###Mindmap for Greenland shark
 
+![SharkMindmap](img/SharkMindmap.jpg)
 
 ###A hanging light
 
