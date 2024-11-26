@@ -1,6 +1,6 @@
 #Computer aided design
 
-##Designin a logo
+##Designing a logo
 
 
 !!!Info "Designing a logo in Inkscape"
