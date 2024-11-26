@@ -14,6 +14,9 @@ In the beginning of my documentation I used the Snipping Tool. Since the size of
 
     With Greenshot you can take screenshots to document everything. You can download it [here](https://getgreenshot.org/).  
 
+!!! example "A quick screenshot"
+
+    When you hold down the **Shift key** and the **Windows key** and click on the letter **S** a window pops up where you can choose quickly if you want to take a screenshot of the whole screen or just a part of the screen.
 
 <label for="ImageMagick">ImageMagick Command for compressing photos:</label>
 
