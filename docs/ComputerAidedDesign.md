@@ -11,7 +11,30 @@ I clicket on the text icon in Inkscape and chose a font. By holding **CTRL** and
 
 I clicked on **Object** and **Fill and stroke**. There I changed the **Opacity** from 100 to 50. That way the letters were a little bit transparent and I could see them all when they overlapped each other. By holding **CTRL** while moving a letter, the letter was locked on the horizontal axis when moving them around. Then I could select more than one letter by holding **SHIFT** while clicking on all letters I wanted to select when moving multiple letters at the same time.
 
-By selecting one letter and clicking on **CTRL** and **D** I duplicated the letter. Then I changed the color of the letter by clicking on a color in the color palette at the bottom of the screen. I went to **Path** and **Path effects**. Then I clicked on the arrow to the right on the screen, below the **Path effects** text and chose **Offset**. Then I could use the **plus symbol** to increase the offset until I was happy with the size. Then I used the **Bezier pen** to draw a circle around the area where I wanted to make the offset remove a part of the letter beside it. I clicked on this area, held **Shift** down and clicked on the rest of the letter. Then I went to **Path** and **Intersection**. After that I held the **Shift** button again and clicked on the letter beside it. Then I chose **Path** and **Difference**.
+By selecting one letter and clicking on **CTRL** and **D** I duplicated the letter. Then I changed the color of the letter by clicking on a color in the color palette at the bottom of the screen. I went to **Path** and **Path effects**. Then I clicked on the arrow to the right on the screen, below the **Path effects** text and chose **Offset**. Then I could use the **plus symbol** to increase the offset until I was happy with the size. After that I held the **Shift** button and clicked on the letter beside it. Then I chose **Path** and **Difference**. This is the outcome:
+
+![Elephant](img/Elephant3.jpg_300X113.jpg)
+
+I wasn't really happy with the outcome, so I kept on trying different ways. I used the **Impact** font and arranged my name in a rectangle. 
+
+![Logo_rectangle](img/Logo_rectangle.jpg)     
+
+Then I added a pink rectangle to the logo.
+
+![Logo_rectangle_pink](img/Logo_rectangle_pink250x257.jpg)
+
+I used the **Typographica** font that I found on the website [DaFont.com](https://www.dafont.com/search.php?q=typographica), resized some letters and arranged them in a fun way to make this logo:
+
+![Typographica](img/Typographica3.jpg)      
+
+Then I tested how it would look with the **ComicSans** font:
+
+![ComicSans](img/ComicSans.jpg) 
 
 
+
+
+![Pricedown](img/Pricedown_c_300x355.jpg)
+
+![Logo_Final](img/Logo_final.jpg)
 

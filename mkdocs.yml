@@ -8,8 +8,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
   
-  logo: images\Logo_OLOF.svg
-  favicon: images\Logo_OLOF.svg
+  logo: images\Logo_OLOF.png
+  favicon: images\Logo_OLOF.png
 
   palette:
     primary: indigo
