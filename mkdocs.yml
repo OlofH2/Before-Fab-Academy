@@ -7,6 +7,9 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+  
+  logo: images\Olof50x35.jpg
+  favicon: images\Olof50x35.jpg
 
   palette:
     primary: indigo
