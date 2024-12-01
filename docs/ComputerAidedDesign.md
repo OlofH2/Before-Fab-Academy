@@ -1,5 +1,11 @@
 #Computer aided design
 
+##Designing a stamp holder in FreeCad
+
+
+
+
+
 ##Designing a logo
 
 
@@ -7,7 +13,7 @@
   
     This [tutorial](hhttps://www.youtube.com/watch?v=BI8Nw69Vn5o&t=110s) shows how you can make logos with custom text treatment in Inkscape.
 
-I clicket on the text icon in Inkscape and chose a font. By holding **CTRL** and **SHIFT** I could scale the size and still keep the same proportions. Then I converted the text to path by choosing **Path** and then **Object to path**. After that I clicked on **Object** and **Ungroup**. 
+I decided to use my first name when designing my logo. I clicked on the text icon in Inkscape and chose a font. By holding **CTRL** and **SHIFT** I could scale the size and still keep the same proportions. Then I converted the text to path by choosing **Path** and then **Object to path**. After that I clicked on **Object** and **Ungroup**. 
 
 I clicked on **Object** and **Fill and stroke**. There I changed the **Opacity** from 100 to 50. That way the letters were a little bit transparent and I could see them all when they overlapped each other. By holding **CTRL** while moving a letter, the letter was locked on the horizontal axis when moving them around. Then I could select more than one letter by holding **SHIFT** while clicking on all letters I wanted to select when moving multiple letters at the same time.
 
@@ -25,6 +31,12 @@ Then I added a pink rectangle to the logo.
 
 I used the **Typographica** font that I found on the website [DaFont.com](https://www.dafont.com/search.php?q=typographica), resized some letters and arranged them in a fun way to make this logo:
 
+
+!!! info inline end "Inline blocks"
+
+    This looks like an emoji! I think it would be fun to learn how to use **Blender** to change this logo to an emoji. I could call it **Baffled face**, expressing the feeling that can come over people when learning something new in Fab Academy. 
+
+
 ![Typographica](img/Typographica3.jpg)      
 
 Then I tested how it would look with the **ComicSans** font:
@@ -32,9 +44,10 @@ Then I tested how it would look with the **ComicSans** font:
 ![ComicSans](img/ComicSans.jpg) 
 
 
-
-
+I found the font **Pricedown** on [DaFont.com](https://www.dafont.com/search.php?q=pricedown), stretched some lines and created an outline.
 ![Pricedown](img/Pricedown_c_300x355.jpg)
+
+##The final design
 
 ![Logo_Final](img/Logo_final.jpg)
 
