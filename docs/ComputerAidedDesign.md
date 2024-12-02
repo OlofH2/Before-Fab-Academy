@@ -2,7 +2,25 @@
 
 ##Designing a stamp handle in FreeCad
 
+
+!!! example "Tutorial"
+
+    I followed Svavar's directions on how to draw the handle. The directions can be found [here](https://www.fabisa.is/N%C3%A1msefni/Pre-Fab/5-tolvuteikning/).  
+
+
+I made the drawing on the XZ-plane. I began by drawing all straight lines and using constraints to set the length, hight, width, radius and the incline degrees. Then I made the arching lines and made sure that the nodes were connected. To soften the parts where a straight line meets an arch I made the arch tangent to the line. I created a guiding line at the top and made the arch tangent with it. To create a guiding line (construction geometry) you can click on this icon. Read about it [here](https://wiki.freecad.org/Sketcher_ToggleConstruction). 
+
+![ToggleConstructionGeometry](img/ToggleConstructionGeometryIcon.jpg)
+
+##The final sketch for the handle
+
+This is the final sketch:
+
 ![StampSketch](img/StampSketch500x514.jpg)
+
+##The stamp handle drawn in 3D:
+
+At last I chose the Revolve in Part workbench to revolve the drawing around the Y-axis to make a 3D model. Read more about revolving [here](https://wiki.freecad.org/Part_Revolve). 
 
 ![StampModel](img/StampModelReady300x237.jpg)
 
