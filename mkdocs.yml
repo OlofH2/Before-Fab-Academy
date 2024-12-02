@@ -8,8 +8,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
   
-  logo: assets/LogoIcelandicLetters.svg
-  favicon: images/LogoIcelandicLetters.png
+  logo: docs/img/icelandic2.jpg
+  favicon: docs/img/icelandic2.jpg
 
   palette:
     primary: indigo
