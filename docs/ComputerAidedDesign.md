@@ -32,7 +32,7 @@ At last I chose the Revolve in Part workbench to revolve the drawing around the 
   
     This [tutorial](https://www.youtube.com/watch?v=BI8Nw69Vn5o) shows how you can make logos with custom text treatment in Inkscape.
 
-I decided to use my first name when designing my logo. I clicked on the text icon in Inkscape and chose a font. By holding **CTRL** and **SHIFT** I could scale the size and still keep the same proportions. Then I converted the text to path by choosing **Path** and then **Object to path**. After that I clicked on **Object** and **Ungroup**. 
+I decided to use my first name when designing my logo. At first I used my name without the Icelandic letters, Olof instead of Ólöf. I clicked on the text icon in Inkscape and chose a font. By holding **CTRL** and **SHIFT** I could scale the size and still keep the same proportions. Then I converted the text to path by choosing **Path** and then **Object to path**. After that I clicked on **Object** and **Ungroup**. 
 
 I clicked on **Object** and **Fill and stroke**. There I changed the **Opacity** from 100 to 50. That way the letters were a little bit transparent and I could see them all when they overlapped each other. By holding **CTRL** while moving a letter, the letter was locked on the horizontal axis when moving them around. Then I could select more than one letter by holding **SHIFT** while clicking on all letters I wanted to select when moving multiple letters at the same time.
 
@@ -68,5 +68,9 @@ I found the font **Pricedown** on [DaFont.com](https://www.dafont.com/search.php
 
 ##The final design
 
+I made two versions of the final logo, with and without the Icelandic letters.
+
 ![Logo_Final](img/Logo_final.jpg)
+
+![LogoIcelandic](img/OlofWithIcelandicLetters286x197.jpg)
 
