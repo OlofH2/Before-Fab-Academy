@@ -7,7 +7,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-  
+
   logo: docs/img/icelandic2.jpg
   favicon: docs/img/icelandic2.jpg
 
