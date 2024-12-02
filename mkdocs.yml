@@ -8,8 +8,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
 
-  logo: IcelandicLetters.png
-  favicon: Logo_OLOF.jpg
+  logo: LogoWhite.png
+  favicon: LogoIcelandicLetters.svg
 
   palette:
     primary: indigo
