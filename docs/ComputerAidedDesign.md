@@ -1,9 +1,10 @@
 #Computer aided design
 
-##Designing a stamp holder in FreeCad
+##Designing a stamp handle in FreeCad
 
+![StampSketch](img/StampSketch500x514.jpg)
 
-
+![StampModel](img/StampModelReady300x237.jpg)
 
 
 ##Designing a logo
@@ -11,7 +12,7 @@
 
 !!!Info "Designing a logo in Inkscape"
   
-    This [tutorial](hhttps://www.youtube.com/watch?v=BI8Nw69Vn5o&t=110s) shows how you can make logos with custom text treatment in Inkscape.
+    This [tutorial](https://www.youtube.com/watch?v=BI8Nw69Vn5o) shows how you can make logos with custom text treatment in Inkscape.
 
 I decided to use my first name when designing my logo. I clicked on the text icon in Inkscape and chose a font. By holding **CTRL** and **SHIFT** I could scale the size and still keep the same proportions. Then I converted the text to path by choosing **Path** and then **Object to path**. After that I clicked on **Object** and **Ungroup**. 
 
