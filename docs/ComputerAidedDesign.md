@@ -63,10 +63,12 @@ Then I tested how it would look with the **ComicSans** font:
 ![ComicSans](img/ComicSans.jpg) 
 
 
+##The final design
+
 I found the font **Pricedown** on [DaFont.com](https://www.dafont.com/search.php?q=pricedown), stretched some lines and created an outline.
 ![Pricedown](img/Pricedown_c_300x355.jpg)
 
-##The final design
+![Initials](img/Initials200x167.jpg)
 
 I made two versions of the final logo, with and without the Icelandic letters.
 
