@@ -38,16 +38,22 @@ magick input_image.png -resize 1000 -quality 80 output_image.jpg
 ffmpeg -i input_video.mov -vcodec libx264 -crf 25 -preset veryslow -movflags +faststart -vf scale=-2:360 -c:a aac -b:a 128k output_video.mp4
 </textarea>
 
-!!! Success "How to use these commands to compress photos or videos"
 
-    The text in the text boxes can be edited, then copied and finally pasted in the adress bar at the top of our folder - but first you have to write **cmd** in the adress bar and hit enter. After that, you can paste the command there.
+!!! example "How to use these commands to compress photos or videos"
 
+    The text in the text boxes can be edited, then copied and finally pasted in the adress bar at the top of our folder - but first you have to write **cmd** in the adress bar and hit enter. After that, you can paste the command there..  
 
 
 !!! Failure "Not as easy as it seemed"
 
-    This sounded easy and I wanted to follow these instructions on how to use FFmpeg to resize a video, but it didn´t work at all. The computer said that it didn´t recognize the FFmpeg as an internal or external command, operable program or batch file. [Árni Björnsson](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/) sent me two links to help me understand how to solve this problem and set FFmpeg up the right way. The first link explaines what external variables are and how to edit them, see [here](https://www.howtogeek.com/787217/how-to-edit-environment-variables-on-windows-10-or-11/). The second link is a guide to how FFmpeg is set up, see [here](https://windowsloop.com/install-ffmpeg-windows-10/). I had to ask a collegue of mine, Viðar Guðmundsson, to assist me. He is an administrator at my scool. He followed the instructions on this [site](https://phoenixnap.com/kb/ffmpeg-windows) to put FFmpeg to path.
+    This sounded easy and I wanted to follow these instructions on how to use FFmpeg to resize a video, but it didn´t work at all. The computer said that it didn´t recognize the FFmpeg as an internal or external command, operable program or batch file. [Árni Björnsson](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/) sent me two links to help me understand how to solve this problem and set FFmpeg up the right way. The first link explaines what external variables are and how to edit them, see [here](https://www.howtogeek.com/787217/how-to-edit-environment-variables-on-windows-10-or-11/). The second link is a guide to how FFmpeg is set up, see [here](https://windowsloop.com/install-ffmpeg-windows-10/). I had to ask a collegue of mine, Viðar Guðmundsson, to assist me. He is an administrator at my scool. He followed the instructions on this [site](https://phoenixnap.com/kb/ffmpeg-windows) to put FFmpeg to path. After that I tried to use it to resize a video but it didn't work.
 
+
+!!! Success "Using FFmpeg to resize a video"
+
+    I spoke to [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) and he showed me that in the folder where the video is I could go to **View** and then **Show**. There I could choose **Filename extensions**. After that I could see the type of file in the end of the name of the file. Then I could write the whole name of the file/video that I wanted to resize. At last everything worked perfectly.
+
+![FilenameExtensions](img/FilenameExtensions.300x388.png)
 
 ##Setting up programs
 

@@ -9,7 +9,7 @@ theme:
     - navigation.sections
 
   logo: LogoWhite.png
-  favicon: LogoIcelandicLetters.svg
+  favicon: LogoPink.svg
 
   palette:
     primary: indigo
