@@ -34,7 +34,7 @@ The other possibility is to make this a small lamp. I would fit the embedded mic
 
 Then I saw the final project called Cloudio in Fab Academy by [Wim Lance](https://archive.fabacademy.org/archives/2017/fablabbcn/students/4/?fbclid=IwY2xjawGtV-xleHRuA2FlbQIxMAABHf_CMNKYg_JXdylS7TvDwCbYmvoqZ3rK_b5B2yk4m1mZU0VTOpcq3RT0cg_aem_BLl3n2J2xJ3GL85Ako3vgA) and I liked the idea about levitation very much. I wondered if I could do something similar with my Greenland shark idea. I would like to see it floating calmly in the air, just as it floats slowly around in the cold sea. Maybe it would be possible to lasercut wavelike lines in the box/base and let Neopixel lights move and shine out of the box, casting ripples onto the walls or ceiling as if it was a reflection from the sea.
 
-I would do a 3D design and print the shark. The box would be cut out of birch plywood and all elements, microcomputer, battery, solenoid coils?, magnetic wave sensor? packaged in the box. The shark would include ......
+I would do a 3D design and print the shark. The box would be cut out of birch plywood and all elements, microcomputer, battery, solenoid coils?, magnetic wave sensor? packaged in the box. The shark would include ......This is an incomplete list and [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) pointed out that I have to decide what kind of input I would like to use. The same goes for the Sun wall and the Sun lamp idea.
 
 ###Mindmap for Greenland shark
 
@@ -44,3 +44,5 @@ I would do a 3D design and print the shark. The box would be cut out of birch pl
 
 * A light hanging from the ceiling with lights that can be controlled.
     - Laser cut forms.
+
+
