@@ -80,10 +80,28 @@ I made two versions of the final logo, with and without the Icelandic letters.
 
 I ran into some problems when I tried to use the logo on the website. The logo didn't appear when I followed what [Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/assignments/week01.html#customizing-the-theme) had done. Then I tried to follow the instructions on this [site](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/), but it didn't work either. I checked if there was any difference in using *.jpg, *.png or *.svg and I also checked if they would work in the image folder or just under docs in the repository. When none of this worked, I asked [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html). After looking into what I had done he suggested that I would not write the folder name before the name of the file and it worked. I do not know why this worked better, but I was glad that it did.
 
-![BlackFavicon](img/BlackFavicon.jpg)
 
-![PinkFavicon](img/PinkFavicon.jpg)
+!!! info inline end "Inline blocks"
+
+    The logo and favicon were not as clear as I wanted. When I had many tabs open on my browser the favicon was just a black blob. When I changed it to pink it was easier to find it. I also decided to change the logo and make all white spaces between letters and lines bigger.
+
+![BlackFavicon](img/BlackFavicon.jpg)   ![PinkFavicon](img/PinkFavicon.jpg) ![BetterFavicon](<img/FaviconAbit better.jpg>)  
 
 
+![FinalLogoPink](img/FinalLogo2_Pink.png)
+
+![FinalLogo2](img/FinalLogo2_MoreSpace.png)
+
+
+##The stamp
+
+
+
+
+
+##Files
+
+
+![FinalLogo2](LogoIcelandic_moreSpace.svg)
 
 

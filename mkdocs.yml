@@ -8,8 +8,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
 
-  logo: LogoWhite.png
-  favicon: LogoPink.svg
+  logo: LogoIcelandic_WhitemoreSpace.svg
+  favicon: LogoIcelandic_PinkmoreSpace.svg
 
   palette:
     primary: indigo
