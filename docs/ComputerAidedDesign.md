@@ -2,6 +2,7 @@
 
 ##Designing a stamp handle in FreeCad
 
+![UsingStamp](img/UsingStamp600x450.jpg)
 
 !!! example "Tutorial"
 
@@ -78,7 +79,7 @@ I made two versions of the final logo, with and without the Icelandic letters.
 
 ##Problems with settings for logo and favicon
 
-I ran into some problems when I tried to use the logo on the website. The logo didn't appear when I followed what [Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/assignments/week01.html#customizing-the-theme) had done. Then I tried to follow the instructions on this [site](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/), but it didn't work either. I checked if there was any difference in using *.jpg, *.png or *.svg and I also checked if they would work in the image folder or just under docs in the repository. When none of this worked, I asked [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html). After looking into what I had done he suggested that I would not write the folder name before the name of the file and it worked. I do not know why this worked better, but I was glad that it did.
+I ran into some problems when I tried to use the logo on the website. The logo didn't appear when I followed what [Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/assignments/week01.html#customizing-the-theme) had done. Then I tried to follow the instructions on this [site](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/), but it didn't work either. I checked if there was any difference in using .jpg, .png or .svg and I also checked if they would work in the image folder or just under docs in the repository. When none of this worked, I asked [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html). After looking into what I had done he suggested that I would not write the folder name before the name of the file and it worked. I do not know why this worked better, but I was glad that it did.
 
 
 !!! info inline end "Inline blocks"
@@ -97,10 +98,12 @@ I ran into some problems when I tried to use the logo on the website. The logo d
 
 
 
+![Stamp](img/Stamp600x450.jpg)
 
 
 ##Files
 
+[FinalLogo2](#){ LogoIcelandic_moreSpace.svg-button }
 
 ![FinalLogo2](LogoIcelandic_moreSpace.svg)
 
