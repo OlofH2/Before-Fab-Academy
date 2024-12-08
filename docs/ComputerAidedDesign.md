@@ -21,7 +21,7 @@ This is the final sketch:
 
 ##The stamp handle drawn in 3D:
 
-At last I chose the Revolve in Part workbench to revolve the drawing around the Y-axis to make a 3D model. Read more about revolving [here](https://wiki.freecad.org/Part_Revolve). 
+At last I chose the Revolve in Part workbench to revolve the drawing around the Y-axis to make a 3D model. Read more about revolving [here](https://wiki.freecad.org/Part_Revolve). After revolving and saving the file I exported it as an 3D Manufacturing format (*.3mf). Finally I prepaired the model for 3D printing in Bambu slicer and 3D printed it in Bambu X1 Carbon.
 
 ![StampModel](img/StampModelReady300x237.jpg)
 
@@ -67,44 +67,85 @@ Then I tested how it would look with the **ComicSans** font:
 ##The final design
 
 I found the **Pricedown** font on [DaFont.com](https://www.dafont.com/search.php?q=pricedown), stretched some lines and created an outline.
-![Pricedown](img/Pricedown_c_300x355.jpg)
-
-![Initials](img/Initials200x167.jpg)
+![Pricedown](img/Pricedown_c_300x355.jpg)   ![Initials](img/Initials200x167.jpg)
 
 I made two versions of the final logo, with and without the Icelandic letters.
 
-![Logo_Final](img/Logo_final.jpg)
-
-![LogoIcelandic](img/OlofWithIcelandicLetters286x197.jpg)
+![Logo_Final](img/Logo_final.jpg)   ![LogoIcelandic](img/OlofWithIcelandicLetters286x197.jpg)
 
 ##Problems with settings for logo and favicon
 
 I ran into some problems when I tried to use the logo on the website. The logo didn't appear when I followed what [Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/assignments/week01.html#customizing-the-theme) had done. Then I tried to follow the instructions on this [site](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/), but it didn't work either. I checked if there was any difference in using .jpg, .png or .svg and I also checked if they would work in the image folder or just under docs in the repository. When none of this worked, I asked [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html). After looking into what I had done he suggested that I would not write the folder name before the name of the file and it worked. I do not know why this worked better, but I was glad that it did.
 
 
-!!! info inline end "Inline blocks"
+!!! info inline end "Logo and favicon made clearer"
 
     The logo and favicon were not as clear as I wanted. When I had many tabs open on my browser the favicon was just a black blob. When I changed it to pink it was easier to find it. I also decided to change the logo and make all white spaces between letters and lines bigger.
 
-![BlackFavicon](img/BlackFavicon.jpg)   ![PinkFavicon](img/PinkFavicon.jpg) ![BetterFavicon](<img/FaviconAbit better.jpg>)  
+![BlackFavicon](img/BlackFavicon.jpg) ![BetterFavicon](<img/FaviconAbit better.jpg>)  
 
 
-![FinalLogoPink](img/FinalLogo2_Pink.png)
-
-![FinalLogo2](img/FinalLogo2_MoreSpace.png)
+ ![FinalLogo2](img/FinalLogo2_MoreSpace.png)    
+ 
+ ![FinalLogoPink](img/FinalLogo2_Pink.png)    
 
 
 ##The stamp
 
+I created another file in Inkscape for rasterizing and cutting the stamp rubber. I coloured the logo pink. Then I used **Path** and **Union** to union all the elements in the logo. I found that it did't always work when I chose more than two elements at a time so I only worked with two elements each time. Then I drew a cirkle with 30mm diameter. I copied it and pasted to make another cirkle. I clicked on the other cirkle, chose **Object** and **Fill and stroke**. There I turned off the fill, turned on the line and made it red. Then I set the line to 0.02mm. In the other cirkle I turned on the fill and made it black.
 
+![TwoCirclesAndUnion](img/UnionLettersAndCircle400x219.jpg)
+
+When making a stamp you have to mirror texts and images, unless images are reflected on the Y-axis. I mirrored the letters and aligned them with the black, filled cirkle by clicking on **Object** and **Align and distribute**. Then I aligned them on both x- and y-axis. After that I clicked on  **Path** and **Difference** to make the logo change to a negative space. Then I selected both the cutting line and the logo/filled cirkle, clicked on **Object** and **Align and distribute** and aligned them.
+
+If I would have selected the filled cirkle with the logo as a negative space, clicked on **Object** and **Fill and stroke**, turned on the line, made it red and set the line to 0.02mm, the cutting lines would also be added to the lines/letters in the logo. That is the reason why I added the circle with the cutting line.
+
+![CirkleAndCutting line](img/Circle_CuttingLine400x221.jpg)
+
+##Rasterizing and cutting the rubber stamp
+
+!!!Example "How to rasterize and cut rubber stamp"
+  
+    [Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) used this [site](https://www.instructables.com/Laser-Cut-Rubber-Stamp-Design/) as reference when making his stamp. I used it for reference when adjusting settings for the raster and vector. On the website it is recommended to go three seperate passes when rasterizing to get a good depth but after two passes I stopped and thought it would be enough. I should have done the third pass, as had been recommended, because the stamp smeared ink easily around the logo. Since it only took two passes to cut through the material but the rasterizing should have been done three times, it might be a good idea to make two seperate files, one for rasterizing and one for cutting.
+
+
+
+!!!Info "Settings for rasterizing (using 600 dpi)"
+  
+    Speed: 45
+
+    Power: 100
+
+    Three passes should be adecuate.
+
+
+!!!Info "Settings for cutting (using 600 dpi)"
+  
+    Speed: 18
+
+    Power: 100
+
+    Frequency: 600
+    
+    Two passes should be adecuate.
+
+
+!!! warning "Important"
+
+    I could see many flares both when rasterizing and cutting, so it is important to be ready to act if fire breaks loose. This is always important when working with a laser and especially with materials that can easily catch fire.
+
+I fastened the rubber to the handle by using double tape. It worked well and here you can see the stamp!
 
 ![Stamp](img/Stamp600x450.jpg)
 
 
+
+
+
 ##Files
 
-[FinalLogo2](#){ LogoIcelandic_moreSpace.svg-button }
+[FinalLogo2](#){LogoIcelandic_moreSpace.svg .md-button }
 
-![FinalLogo2](LogoIcelandic_moreSpace.svg)
+
 
 

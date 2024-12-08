@@ -1,7 +1,7 @@
 
 # About me
 
-![Olof](img/I.jpg)
+![Olof](img/I.jpg)    ![Neskaupstadur](img/Leiran302x201.jpg)
 
 My name is Ólöf Hannesdóttir and I live in Neskaupstaður, a small town in the east of Iceland. The youngest of our four daughters is finishing her last year in highschool in Akureyri, so for the moment it's only me, my husband and our dog at our place. 
 
