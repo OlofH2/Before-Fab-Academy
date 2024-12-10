@@ -144,8 +144,9 @@ I fastened the rubber to the handle by using double tape. It worked well and her
 
 ##Files
 
-[FinalLogo2](#){LogoIcelandic_moreSpace.svg .md-button }
+[Handle](Stamp.html)
 
+[Logo](LogoFyrirVefinnStort.html)
 
 
 
