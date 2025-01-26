@@ -415,3 +415,23 @@ It makes the navigation at the top of the page follow when scrolling down a page
 ## Final project
 
 
+Undir About:
+
+Bara student agreement
+
+Undir Home Index:
+
+## Home
+
+Welcome to my homepage
+My name is Ólöf Hannesdóttir and this is my documentation of Fab Academy 2025.
+
+[Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) is my instructor.
+
+My Fab Academy node is [Fab Lab Ísafjörður](https://www.fabisa.is/) 
+
+Here you can find my [Student Agreement](<Student agreement.md>)
+
+Here you can read [about me](about.md).
+
+This website is a work in progress and will be updated reglularly through the Fab Academy period.
