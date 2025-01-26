@@ -63,11 +63,33 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+  
 nav:
-  - Home: ./index.md
-  - Student Agreement: ./studentagreement.md
+  - Home: index.md
+  - Student Agreement: Student_Agreement.md
   - Assignments:
-    - 1. Principles and Practices: assignments/week01.md
+    - 1. Principles and Practices: Week01.md
+    - 2. Computer-Aided Design: Week02.md
+    - 3. Computer-Controlled Cutting: Week03.md
+    - 4. Embedded Programming: Week04.md
+    - 5. 3D Scanning and Printing: Week05.md
+    - 6. Electronics Production: Week06.md
+    - 7. Computer Controlled Machining: Week07.md
+    - 8. Electronics Production: Week08.md
+    - 9. Input Devices: Week09.md
+    - 10. Output Devices: Week10.md
+    - 11. Embedded Networking and Communications: Week11.md
+    - 12. Mechanical Design, Machine Design: Week12.md
+    - 13. Mid Term Review: Week13.md
+    - 14. Moulding and Casting: Week14.md
+    - 15. Interface and Application Programming: Week15.md
+    - 16. System Integration: Week16.md
+    - 17. Wildcard Week: Week17.md
+    - 18. Applications and Implications, Project Development: Week18.md
+    - 19. Invention, Intellectual Property and Income: Week19.md
+   - Final Project: final-project.md
+    
+
 
 
 Undir Gitlab-ci.yml:
