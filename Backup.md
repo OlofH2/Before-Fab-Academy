@@ -109,13 +109,17 @@ artifacts:
 
     # 1. Principles and practices
 
+
 ## Assignments
+
+[Here](https://vimeo.com/1049502578) you can find a recording of the lecture from the 23rd of january. Among the things that Neil Gershenfeld mentioned and caught my attention was that I need to organize my final project with spiral development in mind. Fab Academy will be a demanding program and I should probably use a project management program.
+
 This week's assignments and learning outcomes, see [here](https://fabacademy.org/2025/nueval/principles_and_practices,_project_management.html):
 
-- [ ] Plan and sketch a potential final project
-- [ ] Read, sign (add your name to) the student agreement and commit it to your repo
-* [ ] Work through a git tutorial
-* [ ] Build a personal website in the class archive describing yourself and your final project. Refer to the lecture material for examples
+- [x] Plan and sketch a potential final project
+- [x] Read, sign (add your name to) the student agreement and commit it to your repo
+* [x] Work through a git tutorial
+* [x] Build a personal website in the class archive describing yourself and your final project. Refer to the lecture material for examples
 * [ ] Upload parts 1 and 2, to the class archive
 
 ## Learning outcomes:
@@ -137,28 +141,80 @@ This week's assignments and learning outcomes, see [here](https://fabacademy.org
 
 
 
-
 ## Student Agreement
 
 I read the Student Agreement, signed it and committed it to my repo.You can see it [here](<Student agreement.md>).
 
 
+## Final project
+
+### The search for an idea
+
+In the beginning I had so many starting points to choose from but it was quite difficult to see how they would look as a final project. These were the first ideas that interested me:
+
+### The Sun
+
+
+
+I live in a town where tall mountains surround a small fjord. When the sun is low on the horizon it disappears behind the mountains for a few weeks. This happens in many places in Iceland. The daylight can still be bright, but it´s always good to see the sun again in january and people celebrate. The idea is to tell this story by creating a wall light that shows how the sun disappears and then appears again.
+
+The mountain would be cut out of birch plywood and the light would be situated behind the mountains, shining between the mountaintops and finally over the mountain. I picturize it as covering a whole wall in a small room, maybe in a hallway, where you could sit and watch the light appearing on the opposite wall. The height of the mountains would be around 180 centimeters, but maybe this would be a little bit too big as a project and I do not know where it could be situated. Maybe I would have to ask my friends and family if they would like to have a wall like this in their home.
+
+The other possibility is to make this a small lamp. I would fit the embedded microcontroller, battery, neopixel lights, the axis and motor neatly in packaging behind the mountain shaped front. I wonder if I could use Sparkfun ESP32, a DMX and LEDs similar to those that are used in this [video](https://learn.sparkfun.com/tutorials/sparkfun-esp32-dmx-to-led-shield/all). I would like my LEDs to move up and down an axis, maybe with a white, matte plexiglass cirkle in front of them. Then the cirkle would appear like the sun over the mountains. The front of the lamp would be cut out of birch plywood and the rocks and the canyons would be rasterized.
+
+![SunLamp](img01/SunLampIdea2.jpg)
+
+### Mindmaps for Sun Wall and Sun Lamp
+
+![SunWall](img01/SunWallMindmap800x450.jpg)
+
+![SunLamp](img01/SunLampMindmap800x450.jpg)
+
+### The Greenland Shark
+
+![Shark](img01/Shark.jpg)
+
+* I wanted to do something that acts as a living being og gives you that sense, f.ex.:
+    - A plant that raises her leaves in daylight and loweres them at night.
+    - An animal form that rises up at certain time and kneels after some time.
+    - An animal that swims/moves in slow movements (Greenland shark?) or maybe some other animal. 
+
+Then I saw the final project called Cloudio in Fab Academy by [Wim Lance](https://archive.fabacademy.org/archives/2017/fablabbcn/students/4/?fbclid=IwY2xjawGtV-xleHRuA2FlbQIxMAABHf_CMNKYg_JXdylS7TvDwCbYmvoqZ3rK_b5B2yk4m1mZU0VTOpcq3RT0cg_aem_BLl3n2J2xJ3GL85Ako3vgA) and I liked the idea about levitation very much. I wondered if I could do something similar with my Greenland shark idea. I would like to see it floating calmly in the air, just as it floats slowly around in the cold sea. Maybe it would be possible to lasercut wavelike lines in the box/base and let Neopixel lights move and shine out of the box, casting ripples onto the walls or ceiling as if it was a reflection from the sea.
+
+I would do a 3D design and print the shark. The box would be cut out of birch plywood and all elements, microcomputer, battery, solenoid coils?, magnetic wave sensor? packaged in the box. The shark would include ......This is an incomplete list and [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) pointed out that I have to decide what kind of input I would like to use. The same goes for the Sun wall and the Sun lamp idea. I haven't decided which animal to work with. Maybe I could find an animal that is tracked and then I could use the tracking data, if it is open to public, and use that as an input.
+
+### Mindmap for Greenland shark
+
+![Shark mindmap](img01/SharkMindmap700x394.jpg)
+
+### A hanging light
+
+* A light hanging from the ceiling with lights that can be controlled.
+    - Laser cut forms.
+
 
 ## Git tutorial
 
+I used this [tutorial](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account) when generating an SSH-key and describe it here below in the chapter about Cloning a repository.
+
+....[tutorial](https://docs.gitlab.com/ee/tutorials/make_first_git_commit/index.html) 
 
 
 ## Building a website
 
 I had a lot to learn and many steps to go through when creating this website. Even though [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html), [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) and [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html) guided me through the whole process, it was a lot to learn. I ran into quite a few problems but in the end all worked out. 
 
-##Prior knowledge
+### Prior knowledge
 
 A few years back I created a simple website using a template from [Wix](https://www.wix.com/). Then, a few months ago, I participated in adding information to a website made by [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html) and [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html). I did this by using GitHub web editor, so I had gotten to know editing Markdown a little bit. This helped me a lot. 
 
 In the fall of 2024 I attended Pre Fab Academy to prepaire myself for the Fab Academy journey. This is the first time that Pre Fab Academy is held in Iceland. [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) is my instructor and his collegues, [Árni Björnsson](https://fabacademy.org/2022/labs/isafjordur/students/arni-bjornsson/), [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) and [Þórarinn Bjartur Breiðfjörð](https://fabacademy.org/archives/2015/eu/students/gunnarsson.thorarinn_b.b/index.html), assisted in this program. [Here](https://olofh2.github.io/Before-Fab-Academy/index.html) you can see my documentation from Pre-Fab. This preparation included doing some of the assignments of Fab Academy in advance and therefore some of the documentation on this Fab Academy website is based on my Pre-Fab website.
 
-##Compressing photos and videos   
+### Compressing photos and videos   
+
+As mentioned in the lectures last week, it is important to compress images before uploading them. The screenshot below, was taken at the bootcamp for students on the 20th of january. For example it is recommended to change .png format to .jpg and keep the size width to 1000 or less. As can be seen in the photo, certain programs were mentioned as conventional for compressing photos and videos.
+
+![Image Compression](img01/ImageCompression1000x560.jpg)
 
 In the beginning of my documentation I used the Snipping Tool. Since the size of all images was around 15-50kb I thought that they would be conveniently small for my website, and I decided to load them all up at the same time. When I checked out the website I saw that they were too big. I opened each of these photos in the **Photos** program, clicked on the three points at the top and chose **Resize image**. This way I could adjust the quality of the image and also the width and height in pixels. Each time I saved a copy of a resized photo I added the pixel size to the name of the photo. The widht in pixels determined how wide the photo would appear on the screen, so I like using this way of resizing photos.
 
@@ -209,7 +265,7 @@ ffmpeg -i input_video.mov -vcodec libx264 -crf 25 -preset veryslow -movflags +fa
 
 ![FilenameExtensions](img01/FilenameExtensions.300x388.png)
 
-##Setting up programs
+### Setting up programs
 
 To prepare the creation of this website and documentation of the assignments it was necessary to install a few programs:
 
@@ -239,12 +295,12 @@ To prepare the creation of this website and documentation of the assignments it 
     Material for MkDocs is a site generator that can build HTML sites and it works well with GitHub and Visual Studio Code. You can choose between different themes and add plugins. I like the clear instructions that can be found on their [website](https://www.mkdocs.org/).  
 
 
-##Understanding HTML+Javascript
+### Understanding HTML+Javascript
 
 In [Pre-Fab](https://olofh2.github.io/Before-Fab-Academy/Website.html#setting-up-programs)  the first assignment was to copy a code from [here](https://www.w3schools.com/html/default.asp) and paste it into a NotePad. By saving the NotePad file as a HTML file it opens up as a webpage when doubleclicked on. This helped me to understand how HTML and Javascript work.
 
 
-##Learning about CSS
+### Learning about CSS
 
 The next step was to learn about CSS, or Cascade Style Sheet, and how we can use CSS to control the way our HTML code appears, f.ex. the colour of elements, where text is situated and which fonts to use. On this page [here](https://www.w3schools.com/css/css_intro.asp) we could find explanations on CSS.
 
@@ -253,12 +309,12 @@ The next step was to learn about CSS, or Cascade Style Sheet, and how we can use
 
 By reading about what to do and what not to do on [here](https://www.markdownguide.org/basic-syntax/) it helps when writing a Markdown. I took another look at this page after some coding and realized that I was not doing everything the right way. I should have put a blank line before writing a heading, instead of writing the heading at the top of the terminal. I also should have pressed the space button between the hashtag symbol and the text in the heading, instead of not leaving space inbetween.
 
-## Cloning a repository
+### Cloning a repository
 
 I thought it would be simple to clone my repository to VS Code, since I did it in https://olofh2.github.io/Before-Fab-Academy/Website.html#setting-up-programs, but I ran into problems. I had to generate an SSH-key from my computer to my repository to be able to clone it. I opened Git Bash and followed [these instructions](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account) but when I was asked to **Enter a file in which to save the key** I thought that I should copy the path to the folder and add it in Git Bash, but that was a failure. I wasn't supposed to add anything, just press enter. I asked [Svavar Konráðsson](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) for assistance and he followed me through the steps and then I realized my mistake. Then, finally, I could clone the repository from my GitLab account. Then I clicked on the three points in the top bar, chose **Terminal** and then to **Open a new terminal**. 
 
 
-##Material for docs
+### Material for docs
 
 
 !!! note "Material for MkDocs"
@@ -348,7 +404,7 @@ I also copied codes from the same site [here](https://squidfunk.github.io/mkdocs
     Have fun changing admonitions by reading about them [here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
 
-##Collapsable block
+### Collapsable block
 
 ??? note "Toggle the arrow here on the right side"
 
@@ -378,7 +434,7 @@ An icon or an emoji can say so much and I found information about how to set the
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 ```
 
-##Adjusting colors on the page
+### Adjusting colors on the page
 
 The colors on the page can be adjusted as explained [here](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/). 
 
@@ -399,7 +455,7 @@ Jóhannes enabled switching between light and dark mode. I decided to follow his
   - pymdownx.tilde
 ```
 
-##Mistakes
+### Mistakes
 
 One of the mistakes I made when creating this site was to make two yaml files in my Actions folder. [Svavar](https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html) pointed this out to me and I deleted one blank yaml file.
 
@@ -421,7 +477,7 @@ I also copied this code from his page:
 It makes the navigation at the top of the page follow when scrolling down a page.
 
 
-##Useful tips
+### Useful tips
 
 
 !!! tip "Autosave in VS Code"
@@ -434,7 +490,9 @@ It makes the navigation at the top of the page follow when scrolling down a page
     One helpful tip: When switching between programs in your computer you can press ALT + TAB 
 
 
-## Final project
+
+
+
 
 
 Undir About:
