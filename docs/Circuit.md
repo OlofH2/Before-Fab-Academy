@@ -293,6 +293,54 @@ Here you can see how I followed the instructions from Andri (added some explanat
 
     ```
 
+
+
+The new code:
+
+```
+
+    //Defining which pin to use for LED and button
+    #define LED 4
+    #define BUTTON 0
+    
+    //Variable to keep track of how many button presses
+    uint8_t buttonPresses = 0;
+
+    //Defining what is input and what is output or input and pullup
+   
+    void setup() { 
+        pinMode(LED, OUTPUT);
+        pinMode(BUTTON, INPUT_PULLUP);
+    }
+
+    //Creating a loop that follows a pattern and then repeats itself
+    void loop() { 
+      //Defining what happens if button is pressed  
+      if (digitalRead(BUTTON) == HIGH) {  
+      // Increment buttonPresses
+        buttonPresses++;
+
+    //If buttonPresses is greater than 4, reset it to 0
+    if (buttonPresses > 4) {
+      buttonPresses = 0; 
+    }
+
+    // Blink LED based on buttonPresses count
+    for (uint8_t i = 0; i < buttonPresses; i++) {
+      digitalWrite(LED, HIGH);
+      delay(200);
+      digitalWrite(LED, LOW);
+      delay(200);
+  }  
+
+    // Wait for button to be released
+       while (digitalRead(BUTTON) == HIGH) {
+       } 
+     }  
+  }
+
+```
+
 In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**. Then I wrote **megatinycore** in the upper left window and chose **Install**. Then I clicked on **Tools**, **Board** and then **megaTinyCore** and then **ATtiny412**. After that I clicked on **Tools**, **Programmer** and then **SerialUPDI SLOW: 57600 baud**. 
 
 By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
