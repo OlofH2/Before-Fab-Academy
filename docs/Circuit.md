@@ -294,6 +294,19 @@ Here you can see how I followed the instructions from Andri (added some explanat
     ```
 
 
+In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**. Then I wrote **megatinycore** in the upper left window and chose **Install**. Then I clicked on **Tools**, **Board** and then **megaTinyCore** and then **ATtiny412**. After that I clicked on **Tools**, **Programmer** and then **SerialUPDI SLOW: 57600 baud**. 
+
+By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
+
+I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly, as can be seen in the video below. The code was obviously not correct.
+
+
+<video controls src="img/ConstantBlinking2.mp4" title="Title"></video>
+
+
+
+Doddi advised me to change the time of the delay from 200 to 2000. That way it was easier to see how the LED was behaving. Then I took a better look at the code and saw that in one place I had written the number **1** instead of the letter **i**. I fixed that and then everything worked as it should.
+
 
 The new code:
 
@@ -340,19 +353,6 @@ The new code:
   }
 
 ```
-
-In the Arduino app I clicked on **Tools**, **Board** and then **Board manager**. Then I wrote **megatinycore** in the upper left window and chose **Install**. Then I clicked on **Tools**, **Board** and then **megaTinyCore** and then **ATtiny412**. After that I clicked on **Tools**, **Programmer** and then **SerialUPDI SLOW: 57600 baud**. 
-
-By clicking on **Tools** and **Port** I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.
-
-I clicked on **Sketch** and **Upload using programmer**. Everything worked except that the LED blinked constantly, as can be seen in the video below. The code was obviously not correct.
-
-
-<video controls src="img/ConstantBlinking2.mp4" title="Title"></video>
-
-
-
-Doddi advised me to change the time of the delay from 200 to 2000. That way it was easier to see how the LED was behaving. Then I took a better look at the code and saw that in one place I had written the number **1** instead of the letter **i**. I fixed that and then everything worked as it should.
 
 Finally ready and I felt happy :smile:
 
