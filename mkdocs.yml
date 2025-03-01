@@ -9,7 +9,7 @@ theme:
     - navigation.sections
 
   logo: LogoIcelandic_WhitemoreSpace.svg
-  favicon: LogoIcelandic_PinkmoreSpace.svg
+  favicon: LogoIcelandic_GreenMoreSpace.svg
 
   palette:
     primary: indigo
