@@ -59,7 +59,13 @@ After adding the Fab Lab library to the lists of libraries I took the clicks awa
     In these three videos; [first part](https://www.youtube.com/watch?v=ZXyL5xjJb7w&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=3), [second part](https://www.youtube.com/watch?v=knyDOiUZNsc&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=4), [third part](https://www.youtube.com/watch?v=dM3h--A04W4&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=5) he explains how to use Scematic editor.
 
 
-In Schematic Editor I opened the Fab Lab library by clicking on this symbol.
+
+!!!Info inline end "Adding elements from Fab Lab Library"
+  
+    In the Schematic Editor, to add an element from the Fab Lab Library you either click on the symbol here to the right or you just click on the letter **A** on your keyboard.
+
+![Icon for libraries](img/IconForLibraries.jpg)
+
 
 I wrote **ATtiny 412** and chose it from the list. To the right I could see the symbol for this microcontroller and below it there was an footprint image of it. Then I clicked **ok**. I could drag it around and I placed it on the screen by leftclicking on the screen. To add a switch I opened the library again and wrote **Switch** and chose **Switch_Tactile_Omron** from the list. In the information text below I could see the letters **SMT**. SMT means that the button should be surface mounted.
 
