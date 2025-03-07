@@ -130,14 +130,11 @@ I clicked on **Cut part** and open the right file.
 
     Never change any settings in this window!
 
-##Cutting depth
-
-I will exhange this video with a smaller one, once I have managed to resize it :smile:
-
+## Cutting depth
 
 !!! info inline end "Cutting depth and splinters"
 
-    In this video you can see the ShopBot working on my sign. All around it are paths and patterns that show how deep the cut was in designs previously made by others. I wanted to avoid deep cuts, so I only added 0.5mm to the thickness of the material. That was not quite enough because when I loosened the screws and checked the backside, the cutting path was laced with splinters. I had to sand them all to make the sign smooth, but that was okey because I also had to file and sand the leftovers of tabs after I chiseled the sign out of it´s frame. 
+     I wanted to avoid deep cuts into the sacrificial layer, so I only added 0.5mm to the thickness of the material. That was not quite enough because when I loosened the screws and checked the backside, the cutting path was laced with splinters. I had to sand them all to make the sign smooth, but that was okey because I also had to file and sand the leftovers of tabs after I chiseled the sign out of it´s frame. 
 
 
 
