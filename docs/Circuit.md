@@ -158,7 +158,7 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
 
 
 
-##Milling and cutting with Fab Modules
+##Milling and cutting with Fab Mods
 
 !!!Info "Ninth part"
   
@@ -167,7 +167,7 @@ Finally, I saved a new Inkscape file with the outline drawing, then selected the
 
 In our Fab Lab we have the [MonoFab SRM-20 milling machine](https://www.rolanddg.eu/en/products/3d/srm-20-small-milling-machine). 
 
-Since [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) was not using the same machine as I was using, I also watched this video made by Fab Lab Barcelona [here](https://www.youtube.com/watch?v=rFRuc0VPWDM) and compaired it to the video that Andri made. Another thing; Andri was also using [Fab Modules](https://kokompe.cba.mit.edu/) but in our Fab Lab we use Fab Modules, which is a newer edition, for setup before cutting and milling in the MonoFab SRM-20 machine. It is done online with [Fab Mods](https://modsproject.org/). I opened the website and right clicked on the screen for this window to open up. Then I chose **Programs** and then I chose **Mill 2D PCB** which was under **SRM-20 mill**.
+Since [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html) was not using the same machine as I was using, I also watched this video made by Fab Lab Barcelona [here](https://www.youtube.com/watch?v=rFRuc0VPWDM) and compaired it to the video that Andri made. Another thing; Andri was also using [Fab Modules](https://kokompe.cba.mit.edu/) but in our Fab Lab we use Fab Mods, which is a newer edition, for setup before cutting and milling in the MonoFab SRM-20 machine. It is done online with [Fab Mods](https://modsproject.org/). I opened the website and right clicked on the screen for this window to open up. Then I chose **Programs** and then I chose **Mill 2D PCB** which was under **SRM-20 mill**.
 
 
 !!! info inline end "Inline blocks"
