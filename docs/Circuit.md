@@ -1,5 +1,5 @@
 
-#Producing and programming a circuit board with ATtiny412
+# Producing and programming a circuit board with ATtiny412
 
 This is a video showing the circuit board that I made:
 
@@ -25,7 +25,7 @@ I opened the program, clicked on **File** and **new** to create a new project. I
 
 ![Schematic_PCB_files](img/Schematic_editor400x289.jpg)
 
-##Hiding libraries and adding Fab Lab library
+## Hiding libraries and adding Fab Lab library
 
 !!!Info "The second part"
   
@@ -52,7 +52,7 @@ After adding the Fab Lab library to the lists of libraries I took the clicks awa
 
 ![Unclicking](img/UnclickingUnderActiveLibraries200x220.jpg)
 
-##Designing the circuit in Schematic Editor
+## Designing the circuit in Schematic Editor
 
 !!!Info "Third, fourth and fifth part"
   
@@ -93,7 +93,7 @@ I used the **Electrical Rule Checker** to see if everything was legal but got a 
 
 In Page settings I changed the page size to A5 and added some information about the project. Then I added a text box, just to try it. I also put a rectangular frame around some of the elements and changed the style of the frame.
 
-##First Schematic Editor, then PCB Editor
+## First Schematic Editor, then PCB Editor
 
 !!!Info "Sixth part"
   
@@ -121,7 +121,7 @@ To connect the elements/making tracks for the circuits that I wanted to mill, I 
 
 To see what the board would look like I clicked to the 3D viewer and saw that Kicad made no extra space around the circuit, so I chose the Edge.Cut layer, clicked on the rectangular symbol and drew a rectangle around the circuit, giving it more space around all elements. This is what it looked like in 3D view after that.
 
-##3D models added and then inspected in 3D viewer
+## 3D models added and then inspected in 3D viewer
 
 !!!Info "Seventh part"
   
@@ -137,7 +137,7 @@ There was no 3D model for ATtiny4012, led light and button in Fab.3Dshapes, so [
 !!!note
     Check out if the elements you add to Fab.3Dshapes folder are at the right angle. If not, rotate the angle on x-axis.
 
-##Design Rule Checker
+## Design Rule Checker
 
 
 !!!Info "Eight part"
