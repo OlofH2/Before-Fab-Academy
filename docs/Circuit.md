@@ -186,7 +186,7 @@ Since [Andri Sæmundsson](https://fabacademy.org/2023/labs/akureyri/students/and
 ![SRM](img/SRM20_Mill_2D_PCB200x284.JPG)
 
 
-##Settings in Fab Mods
+## Settings in Fab Mods
 
 After going through the process I mentioned here above, this page appeared:
  
@@ -217,7 +217,7 @@ Then the program created paths and a photo of them appeared in the next tab on t
 
 After prepairing the file for milling traces I prepaired the outline file the same way, but changed the end-mill to 1/32. In the video from [Fab Lab Barcelona](https://www.youtube.com/watch?v=rFRuc0VPWDM) the speed was changed to 0,5 but since Andri did not change the preset settings in his [video](https://www.youtube.com/watch?v=zJNpHpuvNjk&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=9) I decided to stay with the preset settings with speed for the 1/32.
 
-##The V-Panel
+##  V-Panel
 
 I opened up the V-panel which is used to control cutting and milling in the MonoFab SRM-20 machine. I put double tape on the backside of the copper PCB plate and fastened it on the board in the machine. I was very careful when handling and fastening the end-mill because the end is so thin that it can break easily, as was pointed out in the video from [Fab Lab Barcelona](https://www.youtube.com/watch?v=rFRuc0VPWDM). I used the control board in the V-panel and moved the end-mill to the left corner close to me, where I wanted the starting point to be. Then I clicked on the **x/y** button under **Set origin point** (on the right side). Then I lowered the collet until the end-mill was a few millimeters above the copper plate and loosened it by using the hex key (Allen key). I pressed the side of the end-mill gently, so that it wouldn´t fall down and break. I lowered it carefully until it touched the plate and when it stood on the plate I fastened it again and clicked on the **z button** under **Set origin point** (on the right side).
 
@@ -230,7 +230,7 @@ After setting the x,y and z origin I pressed the **Cut** button, chose **Delete 
      Souldering on a board is explained [here](https://www.youtube.com/watch?v=3f6FUTbL8kg&list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&index=10).
 
 
-##Souldering
+## Souldering
 
 Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus, as you can see in the following video: 
 
@@ -243,7 +243,7 @@ I think it all went well, except from the pins not being 100% straight, but I de
 
 ...Well, when I thought everything was almost perfect and I checked if the LED was workin on the board, it didn´t seem to work. I decided to take it off and soulder a new one on to the board. That didn´t go well. The tin just would not stick to the plate. Then I realized that the copper film had fallen of the surface where the LED should be. I tried to use more tin to make a connection between the LED and the path it should connect to, but the tin piled up and it didn´t work. When I milled the board I made two copies, just in case I would have some problems and that was convenient now that my first board was ruined. I removed the elements from the board and souldered them to the other board and used a new LED this time. 
 
-##How to program ATtiny412
+## How to program ATtiny412
 
 !!!Info "Eleventh part"
   
