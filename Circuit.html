@@ -1,0 +1,999 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="Website.html">
+      
+      
+        <link rel="next" href="ShopBot.html">
+      
+      
+      <link rel="icon" href="LogoIcelandic_GreenMoreSpace.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Designing, producing and programming a circuit - Pre Fab Academy</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#producing-and-programming-a-circuit-board-with-attiny412" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="Pre Fab Academy" class="md-header__button md-logo" aria-label="Pre Fab Academy" data-md-component="logo">
+      
+  <img src="LogoIcelandic_WhitemoreSpace.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pre Fab Academy
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Designing, producing and programming a circuit
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="Pre Fab Academy" class="md-nav__button md-logo" aria-label="Pre Fab Academy" data-md-component="logo">
+      
+  <img src="LogoIcelandic_WhitemoreSpace.svg" alt="logo">
+
+    </a>
+    Pre Fab Academy
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Assignments
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Website.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creating a website
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Designing, producing and programming a circuit
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Circuit.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Designing, producing and programming a circuit
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#done-with-directions-from-andri-smundsson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Done with directions from Andri Sæmundsson
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kicad-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      KiCad setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hiding-libraries-and-adding-fab-lab-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hiding libraries and adding Fab Lab library
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#designing-the-circuit-in-schematic-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Designing the circuit in Schematic Editor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-schematic-editor-then-pcb-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      First Schematic Editor, then PCB Editor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-models-added-and-then-inspected-in-3d-viewer" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D models added and then inspected in 3D viewer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-rule-checker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Rule Checker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#milling-and-cutting-with-fab-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Milling and cutting with Fab Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-in-fab-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings in Fab Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      V-Panel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#souldering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Souldering
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-program-attiny412" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to program ATtiny412
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ShopBot.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ShopBot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ComputerAidedDesign.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Computer aided design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="FinalProject.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Final project
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#done-with-directions-from-andri-smundsson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Done with directions from Andri Sæmundsson
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kicad-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      KiCad setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hiding-libraries-and-adding-fab-lab-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hiding libraries and adding Fab Lab library
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#designing-the-circuit-in-schematic-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Designing the circuit in Schematic Editor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-schematic-editor-then-pcb-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      First Schematic Editor, then PCB Editor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-models-added-and-then-inspected-in-3d-viewer" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D models added and then inspected in 3D viewer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-rule-checker" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design Rule Checker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#milling-and-cutting-with-fab-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Milling and cutting with Fab Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-in-fab-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings in Fab Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      V-Panel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#souldering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Souldering
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-program-attiny412" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to program ATtiny412
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="producing-and-programming-a-circuit-board-with-attiny412">Producing and programming a circuit board with ATtiny412</h1>
+<p>This is a video showing the circuit board that I made:</p>
+<video controls src="img/ButtonBlinkingLandscape.mp4" title="ButtonBlinking"></video>
+
+<h2 id="done-with-directions-from-andri-smundsson">Done with directions from Andri Sæmundsson</h2>
+<p><a href="https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html">Andri Sæmundsson</a> made a series of videos for Fab Lab Reykjavík, where he explaines all the steps in producing a circuit board with ATtiny412. I followed his directions and here I describe every step I took.</p>
+<h2 id="kicad-setup">KiCad setup</h2>
+<div class="admonition info">
+<p class="admonition-title">The first part</p>
+<p>In the first <a href="https://www.youtube.com/watch?v=iOPbk1W3X5k&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=1">video</a> he explains how to set up KiCad 8. </p>
+</div>
+<p>On <a href="hhttps://www.kicad.org/download/windows/">KiCad.org</a> I downloaded the KiCad program and then installed it on the computer. On the <a href="https://www.kicad.org/about/kicad/">About KiCad</a> site it says that KiCad is an open source software that can be used to design EDA or Electronic Design Automation. In <a href="https://www.kicad.org/">KiCad</a> Schematic Editor is used to draw electronic circuit and you have access to thousands of symbols that can be found in libraries. The PCB Editor is then used to add elements to the circuit. Then you can use the 3D viewer to preview your design.</p>
+<p>I opened the program, clicked on <strong>File</strong> and <strong>new</strong> to create a new project. I saved it in a folder in my computer. When saving a new project there will be two files created, Schematic file and a PCB file. I began by editing the Schematic file.</p>
+<div class="admonition note inline end">
+<p class="admonition-title">Schematic and PCB files</p>
+<p>When saving a new project there will be two files created, Schematic file and a PCB file. </p>
+</div>
+<p><img alt="Schematic_PCB_files" src="img/Schematic_editor400x289.jpg" /></p>
+<h2 id="hiding-libraries-and-adding-fab-lab-library">Hiding libraries and adding Fab Lab library</h2>
+<div class="admonition info">
+<p class="admonition-title">The second part</p>
+<p>In this <a href="https://www.youtube.com/watch?v=ZeAAy6L8AB8&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=2">video</a> he explains how to hide librarys that are seldom used and add a KiCad library. </p>
+</div>
+<p>After watching the video I googled "Fab Lab library", as suggested in the video, and downloaded <a href="https://gitlab.fabcloud.org/pub/libraries/electronics/kicad">this library</a>. Then I clicked on the button marked as <strong>Code</strong> and chose <strong>Zip</strong>. Then I opened up the downloads folder and extracted the library. I saved this library in a folder where I plan on storing everything connected to working with KiCad.
+The next step was to open KiCad, click on <strong>Preferences</strong> and <strong>Manage Libraries</strong>. This photo shows that there are many libraries and it can be hard to find the right library, so as <a href="https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html">Andri Sæmundsson</a> mentioned in the video, it would be easier to work with a few libraries, but first I had to install the Fab Lab library before removing other libraries.</p>
+<p><img alt="Libraries" src="img/Libraries400x280.png" /></p>
+<p>I clicked on the small button with a folder sign on it, opened up the folder with the library and double clicked on the <strong>sym</strong> file.</p>
+<div class="admonition info inline end">
+<p class="admonition-title">Inline blocks</p>
+<p>Here you can see the tiny folder sign.</p>
+</div>
+<p><img alt="FolderSign" src="img/FolderSignToAddLibrary.png" /></p>
+<p>Then I clicked on <strong>Preferences</strong> and chose <strong>Footprint Libraries</strong>. I clicked on the <strong>Folder</strong> button and this time I added the Fab.Pretty folder.</p>
+<p>After adding the Fab Lab library to the lists of libraries I took the clicks away from the box under <strong>Active</strong> in front of every other library. After that the only active library is the Fab Lab library.</p>
+<p><img alt="Unclicking" src="img/UnclickingUnderActiveLibraries200x220.jpg" /></p>
+<h2 id="designing-the-circuit-in-schematic-editor">Designing the circuit in Schematic Editor</h2>
+<div class="admonition info">
+<p class="admonition-title">Third, fourth and fifth part</p>
+<p>In these three videos; <a href="https://www.youtube.com/watch?v=ZXyL5xjJb7w&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=3">first part</a>, <a href="https://www.youtube.com/watch?v=knyDOiUZNsc&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=4">second part</a>, <a href="https://www.youtube.com/watch?v=dM3h--A04W4&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=5">third part</a> he explains how to use Scematic editor.</p>
+</div>
+<div class="admonition info inline end">
+<p class="admonition-title">Adding elements from Fab Lab Library</p>
+<p>In the Schematic Editor, to add an element from the Fab Lab Library you either click on the symbol here to the right or you just click on the letter <strong>A</strong> on your keyboard.</p>
+</div>
+<p><img alt="Icon for libraries" src="img/IconForLibraries.jpg" /></p>
+<p>I wrote <strong>ATtiny 412</strong> and chose it from the list. To the right I could see the symbol for this microcontroller and below it there was an footprint image of it. Then I clicked <strong>ok</strong>. I could drag it around and I placed it on the screen by leftclicking on the screen. To add a switch I opened the library again and wrote <strong>Switch</strong> and chose <strong>Switch_Tactile_Omron</strong> from the list. In the information text below I could see the letters <strong>SMT</strong>. SMT means that the button should be surface mounted.</p>
+<p><img alt="ATtinyInLibrary" src="img/ATtiny412_inLibrary500x392.jpg" /></p>
+<p>After that I added a capacitor with the number <strong>C_1206</strong>. Then I added a Led with the same number as the capacitor; <strong>L_1206</strong>. </p>
+<p>The last element that I added was a Conn_PinHeader with three male pins in a row.</p>
+<p>Because the icon for the library is chosen, each time I click on the screen the library opens. To be able to use the mouse I had to click on the arrow at the top of the list. Then I could use the mouse to move elements around. </p>
+<p>To rotate an element you can write "R" and then the element rotates 90 degrees.</p>
+<p>Elements can be labeled by clicking on the symbol marked with an underlined A or just writing the letter"L". I added a label marked GND to Ground and another one marked VCC to VCC. I labelled pin 6 as UPDI.. I labelled pin 7 as LED and also put a LED label on the resistor. Then I connected the other end of the resistor to the LED with wire.I labelled the other end of the LED with GND. </p>
+<p>I labelled one end of the capacitor with GND and the other end with VCC. I labelled one end of the switch as GND and the other one as BNT. </p>
+<p>The first pin on the PinHeader I labelled as VCC and the second one as GND. Pin nr. 3 was labelled as UPDI.</p>
+<p>I connected the led to pin 7, which is marked as PA3. Then I connected the LED to Ground. Then I connected the swithc to pin 2, which is marked as PA6. In Schematic Editor it looks as if Pins nr. 2 and 7 are on the same side but when you look at this photo of ATtiny 412 from <a href="https://github.com/SpenceKonde/megaTinyCore/raw/master/megaavr/extras/ATtiny_x12.gif">Spence Konde</a> you can see that the pins are on each side.</p>
+<p>I connected the first pin on the Conn_PinHeader to Ground, the second one to VCC and the third one to UPDI. </p>
+<p>I used the <strong>Electrical Rule Checker</strong> to see if everything was legal but got a few errors. After marking pins nr. 3, 4 and 5 with <strong>No connection flag</strong> and putting a <strong>power flag</strong> on <strong>Ground</strong> and *<em>VCC</em>, the Electrical Rule Checker everything seemed to be okay.</p>
+<p>In Page settings I changed the page size to A5 and added some information about the project. Then I added a text box, just to try it. I also put a rectangular frame around some of the elements and changed the style of the frame.</p>
+<h2 id="first-schematic-editor-then-pcb-editor">First Schematic Editor, then PCB Editor</h2>
+<div class="admonition info">
+<p class="admonition-title">Sixth part</p>
+<p>This <a href="https://www.youtube.com/watch?v=2oxuvwRuQNM&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=6">video</a> explains how to use the PCB editor.</p>
+</div>
+<p>Before opening the PCB editor I changed the value of the capacitor and the resistor by clicking on each of these element and then clicking on the symbol for Properties. Another way to open the Properties manager is to right click on an element and choose the Properties manager from the list. The third way is simply to write the letter E and the fourth way is to double click on the text.
+ I changed the value of the Capacitor from C_1206 to 1 uF, the value of the Resistor from R-1206 to 1k. Then I opened the PCB Editor by clicking on the symbol for it in the top bar.</p>
+<p>To fetch the elements from the Schematic Editor I clicked on <strong>Update PCB Editor from Schematic</strong>. Then a window popped up and I clicked on the Update PCB button.</p>
+<p>In the PCB Editor you can see different layers at the right side of the window, choose those layers you want to work with and hide all others. I was working with the top layer of the electric board and therefore I chose the F.Cu, or in other words; the front of the copper plate. Then I could hide the view of the backside by clicking on the <strong>eye</strong> in front of B.Cu.
+ I hid all layers except the layers for F.Silkscreen, Edge.Cuts, F.Courtyard and .... The F.Courtyard shows a violet frame around elements and it shows how close you can lay wires to elements, f.ex. if you cross the violet frame you are too close to an element. </p>
+<p>I changed the setup of the pins by editing the labels in Schematic Editor; Pin1 changed from VCC to UPDI and Pin3 changed from UPDI to VCC. Then I clicked on <strong>Update PCB Editor from Schematic</strong>.</p>
+<p>I could see that some of the blue lines, which showed how the electric circuits would be connected, were crossed. To fix that I by rotating elements.</p>
+<p>When organizing the board I had to make sure that I wouldn´t make the circuits too thin and that there is enough space for the bit to mill the traces while making sure that there is enough clearance.
+In <strong>Board Setup</strong> I went to <strong>Design rules</strong> and wrote that mininum clearance, minimum track width, minimum connection width, minimum annular width and copper to hole clearance should all be 0.4mm.</p>
+<p>To connect the elements/making tracks for the circuits that I wanted to mill, I clicked on the <strong>Route Tracks</strong> symbol and began drawing tracks between footprints. I made sure that the lines were straight when entering footprints. I used the Route tracker to mark all circuits that had to be milled, as can be seen in this photo. </p>
+<p><img alt="Route_tracks_all_in_place" src="img/RouteTracks_InPlace500x401.jpg" /></p>
+<p>To see what the board would look like I clicked to the 3D viewer and saw that Kicad made no extra space around the circuit, so I chose the Edge.Cut layer, clicked on the rectangular symbol and drew a rectangle around the circuit, giving it more space around all elements. This is what it looked like in 3D view after that.</p>
+<h2 id="3d-models-added-and-then-inspected-in-3d-viewer">3D models added and then inspected in 3D viewer</h2>
+<div class="admonition info">
+<p class="admonition-title">Seventh part</p>
+<p>In this <a href="https://www.youtube.com/watch?v=oObZeXe6Ba8&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=7">video</a> he adds 3D model to his PCB and uses the 3D viewer. </p>
+</div>
+<p>To add 3D models to my board I right clicked on each element, chose <strong>properties</strong> and then clicked on <strong>3D models</strong> in the top bar. Then I had to click on the line that was lighted up with blue because then a small folder logo appeared beside the text. After that I clicked on this <strong>small folder symbol</strong>, searched for the <strong>Fab Lab Library</strong> and opened it. In it I found the <strong>Fab.3Dshapes</strong> folder and opened it to find <strong>R_1206.step</strong> and finally click on <strong>OK</strong>. When I opened up the 3D viewer I could see that the Resistor appeared in 3D on the board.</p>
+<p>There was no 3D model for ATtiny4012, led light and button in Fab.3Dshapes, so <a href="https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html">Andri Sæmundsson</a> explained in the video what to do and pointed to this <a href="https://www.snapeda.com/">website</a> to find the 3D model. I had to sign up to be able to use the website. Then I used the search window to find each element, chose the right one from a list and downloaded a 3D model. I opened the download in the downloads folder, copied it and pasted it into the <strong>Fab.3Dshapes</strong> folder. After that I could find the models in the same way as I explained before. The only problem was that when these models were opened up in Kicad-properties-3D models-Fab.3Dshapes they didn´t sit on the plate but lay on their side. That was easily fixed just by rotating them about 90 degrees.</p>
+<p><img alt="ATtiny_wrong_situation" src="img/ATtiny412_wrongSituation300x285.jpg" />        <img alt="ATtiny_right_situation" src="img/ATtiny412_Right_after90degreesRotation300x285.jpg" />     </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Check out if the elements you add to Fab.3Dshapes folder are at the right angle. If not, rotate the angle on x-axis.</p>
+</div>
+<h2 id="design-rule-checker">Design Rule Checker</h2>
+<div class="admonition info">
+<p class="admonition-title">Eight part</p>
+<p><a href="https://www.youtube.com/watch?v=Tq6v1HqWmm0&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=8">Here</a> <a href="https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html">Andri Sæmundsson</a> shows how to finish the design of the board in PCB editor, use Design Rules Checker and finally prepare the design for milling and cutting in Inkscape.</p>
+</div>
+<p>I followed the directions on how to use <strong>Design Rule Checker</strong> to see if everything is legal. I clicked on the symbol for it and chose <strong>Run DRC</strong>. I got 6 warnings that said "Silkscreen clipped by solder mask". Andri said that it would be important to fix this if the board was to be produced, but since this doesn´t really matter when this board is made, i ignored the warnings. </p>
+<p>To export the final desing I chose <strong>File</strong> and <strong>Export SVG</strong>. I checked in the <strong>F.Cu box</strong> and changed the <strong>Print Mode</strong> from color to <strong>black and white</strong>. Then I saved the file. The next step was to open the file in Inkscape. The whole page appeared in Inkscape with the frame around the page and the text boxes. I only needed the board, so I copied it and pasted it into a new Inkscape file. In Inkscape I changed the colour of the circuit from black to white and changed the background to black.</p>
+<p>I had to make two files in Inskcape, one for milling the circuit and another one for cutting the outline, because these two files are cut with different bits. To make the file for the outline I copied the outline and pasted it beside the other one. Then I copied it again and pasted exactly the same rectangle, but coloured it white. In the boxes for height and width I extracted 1,6mm from the numbers by writing -1,6 in both boxes. Then I selected both rectangles, went to <strong>Object</strong> and <strong>Align and distribute</strong>. Then I aligned the rectangles on x-axis and y-axis. Now I had an outline that was 0,8mm wide and that was a good size for the cutting line because the bit that will be used is just under 0,8mm. </p>
+<p>Finally, I saved a new Inkscape file with the outline drawing, then selected the drawing of the outline and exported it as PNG. Then I also exported the drawing of the circuit as PNG.</p>
+<p><img alt="PNG-Circuit" src="img/Circuit.png" /></p>
+<p><img alt="PNG-Outline" src="img/Circuit_outline.png" /></p>
+<h2 id="milling-and-cutting-with-fab-mods">Milling and cutting with Fab Mods</h2>
+<div class="admonition info">
+<p class="admonition-title">Ninth part</p>
+<p>In this video it is shown how to mill the board by using Fab Modules <a href="https://www.youtube.com/watch?v=zJNpHpuvNjk&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=9">here</a>. </p>
+</div>
+<p>In our Fab Lab we have the <a href="https://www.rolanddg.eu/en/products/3d/srm-20-small-milling-machine">MonoFab SRM-20 milling machine</a>. </p>
+<p>Since <a href="https://fabacademy.org/2023/labs/akureyri/students/andri-semundsson/pages/aboutMe.html">Andri Sæmundsson</a> was not using the same machine as I was using, I also watched this video made by Fab Lab Barcelona <a href="https://www.youtube.com/watch?v=rFRuc0VPWDM">here</a> and compaired it to the video that Andri made. Another thing; Andri was also using <a href="https://kokompe.cba.mit.edu/">Fab Modules</a> but in our Fab Lab we use Fab Mods, which is a newer edition, for setup before cutting and milling in the MonoFab SRM-20 machine. It is done online with <a href="https://modsproject.org/">Fab Mods</a>. I opened the website and right clicked on the screen for this window to open up. Then I chose <strong>Programs</strong> and then I chose <strong>Mill 2D PCB</strong> which was under <strong>SRM-20 mill</strong>.</p>
+<div class="admonition info inline end">
+<p class="admonition-title">Inline blocks</p>
+<p>I opened the website and right clicked on the screen for this window (upper left photo) to open up. </p>
+<p>Then I chose <strong>Programs</strong> and clicked on <strong>Mill 2D PCB</strong> which was under <strong>SRM-20 mill</strong> (lower left photo).</p>
+</div>
+<p><img alt="OpenProgram" src="img/OpenProgram_200x111.JPG" />             </p>
+<p><img alt="SRM" src="img/SRM20_Mill_2D_PCB200x284.JPG" /></p>
+<h2 id="settings-in-fab-mods">Settings in Fab Mods</h2>
+<p>After going through the process I mentioned here above, this page appeared:</p>
+<p><img alt="Overview" src="img/Overview_FabModules.JPG" /></p>
+<p>At first sight it looks very complicated to fill in the information, but in fact it is simpler than it looks. On the left side you can choose between uploading a .svg file or a .png file. I began by uploading the .png file for the electric circuits and clicked on the 1/64 button below, because I wanted to use the 1/64 endmill to mill the traces. </p>
+<div class="admonition info inline end">
+<p class="admonition-title">Inline blocks</p>
+<p>The 1/64 button with presettings. </p>
+</div>
+<p><img alt="Preset1_64" src="img/1_64_Preset.JPG" /></p>
+<p>The next step was to turn on <strong>Save</strong> to the lower right, so that both <strong>Save</strong> buttons were turned on. The settings for x,y and z were preset to 10 but I changed them all to zero.</p>
+<p><img alt="SaveAndXYZ" src="img/SaveAndXYZsettings.JPG" /></p>
+<p>Finally I clicked on <strong>Calculate</strong> under <strong>Mill raster 2D</strong>.</p>
+<p><img alt="Calculate" src="img/Calculate1_64_300x287.jpg" /></p>
+<p>Then the program created paths and a photo of them appeared in the next tab on the browser. But the traces were not similar to the traces that Andri made, so I asked <a href="https://fabacademy.org/2023/labs/isafjordur/students/svavar-konradsson/index.html">Svavar Konráðsson</a> and he asked what resolution I used when exporting the PNG from Inkscape. It was not high, so Svavar advised me to export the PNG with the resolution set to 1000 dpi. The results were much better and here you can see the difference between the path with lower resolution and the other one with higher resolution:</p>
+<p><img alt="LowerResolution" src="img/Ferill1_ekkiEinsOgMyndband300x208.JPG" />   <img alt="BetterTraces" src="img/BetterTraces1_64_300x208.jpg" /></p>
+<p>After prepairing the file for milling traces I prepaired the outline file the same way, but changed the end-mill to 1/32. In the video from <a href="https://www.youtube.com/watch?v=rFRuc0VPWDM">Fab Lab Barcelona</a> the speed was changed to 0,5 but since Andri did not change the preset settings in his <a href="https://www.youtube.com/watch?v=zJNpHpuvNjk&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=9">video</a> I decided to stay with the preset settings with speed for the 1/32.</p>
+<h2 id="v-panel">V-Panel</h2>
+<p>I opened up the V-panel which is used to control cutting and milling in the MonoFab SRM-20 machine. I put double tape on the backside of the copper PCB plate and fastened it on the board in the machine. I was very careful when handling and fastening the end-mill because the end is so thin that it can break easily, as was pointed out in the video from <a href="https://www.youtube.com/watch?v=rFRuc0VPWDM">Fab Lab Barcelona</a>. I used the control board in the V-panel and moved the end-mill to the left corner close to me, where I wanted the starting point to be. Then I clicked on the <strong>x/y</strong> button under <strong>Set origin point</strong> (on the right side). Then I lowered the collet until the end-mill was a few millimeters above the copper plate and loosened it by using the hex key (Allen key). I pressed the side of the end-mill gently, so that it wouldn´t fall down and break. I lowered it carefully until it touched the plate and when it stood on the plate I fastened it again and clicked on the <strong>z button</strong> under <strong>Set origin point</strong> (on the right side).</p>
+<p>After setting the x,y and z origin I pressed the <strong>Cut</strong> button, chose <strong>Delete all files</strong> and then added the file I wanted to mill. When I clicked on the <strong>Output</strong> button the machine began milling the traces. First I milled the PCB board using the 1/64 end-mill and then I cut the outline with the 1/32 end-mill. </p>
+<p><img alt="MillingFinished" src="img/AfterMilling300x240.jpg" /></p>
+<div class="admonition info">
+<p class="admonition-title">Tenth part</p>
+<p>Souldering on a board is explained <a href="https://www.youtube.com/watch?v=3f6FUTbL8kg&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=10">here</a>.</p>
+</div>
+<h2 id="souldering">Souldering</h2>
+<p>Many years ago I got to know souldering a little bit, but I have never souldered anything so small! All the elements were so tiny that this was quite hard. I had to ask a co-teacher, Þórarinn Elí Helgason, to tell me how to remove some of the tin (ensk þýðing?). I also had to ask another co-teacher, Hjálmar Wais Joensen, to show me how to use the Multimeter, because I did not know which settings to use. He also had to assist me when it came to use the Multimeter to see which side of the LED was plus and minus, as you can see in the following video: </p>
+<video controls src="img/FindingPlusAndMinusOnLed.mp4" title="Title"></video>
+
+<p>I think it all went well, except from the pins not being 100% straight, but I decided that it didn´t matter since everything worked. </p>
+<p><img alt="BoardReady" src="img/BoardReady300x400.jpg" />       <img alt="OldAndNewBoard" src="img/OldAndNewBoard300x400.jpg" /> </p>
+<p>...Well, when I thought everything was almost perfect and I checked if the LED was workin on the board, it didn´t seem to work. I decided to take it off and soulder a new one on to the board. That didn´t go well. The tin just would not stick to the plate. Then I realized that the copper film had fallen of the surface where the LED should be. I tried to use more tin to make a connection between the LED and the path it should connect to, but the tin piled up and it didn´t work. When I milled the board I made two copies, just in case I would have some problems and that was convenient now that my first board was ruined. I removed the elements from the board and souldered them to the other board and used a new LED this time. </p>
+<h2 id="how-to-program-attiny412">How to program ATtiny412</h2>
+<div class="admonition info">
+<p class="admonition-title">Eleventh part</p>
+<p>Finally he explaines how to program Attiny 412 <a href="https://www.youtube.com/watch?v=So58u1hxy98&amp;list=PLs4ifnZzVJmqaSM1lsg68vPVtJxVNhVwV&amp;index=11">video</a>.</p>
+</div>
+<p>To connect the board to a computer I needed a serial UPDi-3 pin, and <a href="https://www.fabisa.is/N%C3%A1msefni/Pre-Fab/2-rafrasasmidi/">Svavar Konráðsson</a> told us that it was designed by <a href="https://ng.cba.mit.edu/">prof. Neil Gershenfeld</a>. I also needed a FTDI cord (USB to TTL Serial Cable) to make a connection from the pins on the board to USB on the computer. </p>
+<p>I created a new sketch in the Arduino app. According to the pinout datasheet for ATtiny412 and the PCB board design the LED is on pin 4 and the button is on pin 0. Therefore I began by defining that the LED was on pin 4 and the button on pin 0 in Arduino by writing #define LED 4 and in the next line below #define BUTTON 0. When // is added in front of text, the computer ignores it. That way you can use text to explain what is going to happen in each step.</p>
+<p>Here you can see how I followed the instructions from Andri (added some explanations myself) and wrote this code:</p>
+<p>```</p>
+<div class="highlight"><pre><span></span><code>    //Defining which pin to use for LED and button
+#define LED 4
+#define BUTTON 0
+
+//Variable to keep track of how many button presses
+uint8_t buttonPresses = 0;
+
+//Defining what is input and what is output or input and pullup
+
+void setup() { 
+    pinMode(LED, OUTPUT);
+    pinMode(BUTTON, INPUT_PULLUP);
+}
+
+//Creating a loop that follows a pattern and then repeats itself
+void loop() { 
+  //Defining what happens if button is pressed  
+  if (digitalRead(BUTTON) == HIGH) {  
+    //Increment buttonPresses
+    buttonPresses++;
+
+//If buttonPresses is greater than 4, reset it to 0
+if (buttonPresses &gt; 4) {
+  buttonPresses = 0; 
+}
+
+// Blink LED based on buttonPresses count
+for (uint8_t i = 0; 1 &lt;buttonPresses; i++) {
+  digitalWrite(LED, HIGH);
+  delay(200);
+  digitalWrite(LED, LOW);
+  delay(200);
+}
+
+// Wait for button to be released
+   while (digitalRead(BUTTON) == HIGH) {
+   } 
+ }  
+}
+
+```
+</code></pre></div>
+<p>In the Arduino app I clicked on <strong>Tools</strong>, <strong>Board</strong> and then <strong>Board manager</strong>. Then I wrote <strong>megatinycore</strong> in the upper left window and chose <strong>Install</strong>. Then I clicked on <strong>Tools</strong>, <strong>Board</strong> and then <strong>megaTinyCore</strong> and then <strong>ATtiny412</strong>. After that I clicked on <strong>Tools</strong>, <strong>Programmer</strong> and then <strong>SerialUPDI SLOW: 57600 baud</strong>. </p>
+<p>By clicking on <strong>Tools</strong> and <strong>Port</strong> I could see a list of ports. Then I connected the cord to the computer and checked out which port had beed added to this list. That was the port that I wanted to use, so I clicked on it.</p>
+<p>I clicked on <strong>Sketch</strong> and <strong>Upload using programmer</strong>. Everything worked except that the LED blinked constantly, as can be seen in the video below. The code was obviously not correct.</p>
+<video controls src="img/ConstantBlinking2.mp4" title="Title"></video>
+
+<p>Doddi advised me to change the time of the delay from 200 to 2000. That way it was easier to see how the LED was behaving. Then I took a better look at the code and saw that in one place I had written the number <strong>1</strong> instead of the letter <strong>i</strong>. I fixed that and then everything worked as it should.</p>
+<p>The new code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>    //Defining which pin to use for LED and button
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    #define LED 4
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    #define BUTTON 0
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    //Variable to keep track of how many button presses
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    uint8_t buttonPresses = 0;
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    //Defining what is input and what is output or input and pullup
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    void setup() { 
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>        pinMode(LED, OUTPUT);
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        pinMode(BUTTON, INPUT_PULLUP);
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    }
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    //Creating a loop that follows a pattern and then repeats itself
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    void loop() { 
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>      //Defining what happens if button is pressed  
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>      if (digitalRead(BUTTON) == HIGH) {  
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>      // Increment buttonPresses
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>        buttonPresses++;
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    //If buttonPresses is greater than 4, reset it to 0
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    if (buttonPresses &gt; 4) {
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>      buttonPresses = 0; 
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    }
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>    // Blink LED based on buttonPresses count
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>    for (uint8_t i = 0; i &lt; buttonPresses; i++) {
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>      digitalWrite(LED, HIGH);
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>      delay(200);
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>      digitalWrite(LED, LOW);
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>      delay(200);
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>  }  
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>    // Wait for button to be released
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>       while (digitalRead(BUTTON) == HIGH) {
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>       } 
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>     }  
+<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>  }
+</code></pre></div>
+<p>Finally ready and I felt happy <img alt="😄" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f604.svg" title=":smile:" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tracking"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
